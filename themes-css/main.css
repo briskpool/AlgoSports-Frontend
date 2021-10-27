@@ -1,0 +1,161 @@
+@font-face {
+    font-family: Product sans bold;
+    src: url(../fonts/Produc-Sans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Product sans;
+    src: url(../fonts/Product-Sans-Regular.ttf);
+}
+
+:root {
+    --color-primary: #91288F;
+    --color-secondary: #002032;
+    --open-sens: 'Open Sans', sans-serif;
+    --popins-font: : 'Poppins', sans-serif;
+}
+
+body {
+    font-family: Product sans, Sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: var(--color-secondary);
+}
+
+h1,
+h2,
+h3 {
+    font-family: Product sans bold, Sans-serif;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.btn-primary {
+    background-color: var(--color-primary) !important;
+    border-color: var(--color-primary) !important;
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.btn-secondary {
+    background-color: var(--color-secondary) !important;
+    border-color: var(--color-secondary) !important;
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.btn-secondary:hover {
+    background-color: var(--color-primary) !important;
+    border-color: var(--color-primary) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-secondary) !important;
+    border-color: var(--color-secondary) !important;
+}
+
+.bg-secondary {
+    background: var(--color-secondary) !important;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+    box-shadow: none !important;
+}
+
+.footer ul li {
+    display: flex;
+    align-items: center;
+}
+
+.footer ul li a {
+    color: var(--color-secondary) !important;
+    font-weight: 500;
+}
+
+.footer ul.list-left li a {
+    text-decoration: underline;
+}
+
+.footer .container.border-bottom {
+    border-color: var(--color-secondary) !important;
+}
+
+.footer-top .container::after {
+    content: '';
+    width: 96%;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background-color: var(--color-secondary);
+    transform: translate(-50%, 5px);
+    -webkit-transform: translate(-50%, 5px);
+}
+
+.footer ul li a.icon-link {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: var(--color-secondary);
+    color: #fff !important;
+    line-height: 36px;
+    text-align: center;
+    padding: 0;
+}
+
+.footer ul li a.icon-link:hover {
+    background-color: var(--color-primary);
+}
+
+.footer-bottom p span {
+    font-size: 16px;
+}
+
+.Terms-sec h2,
+.Privacy-sec h2 {
+    margin-bottom: 25px;
+}
+
+.privacy_terms-sec h3 {
+    font-size: 20px;
+}
+
+@media (max-width: 992px) {
+    .footer ul.justify-content-end,
+    .footer ul {
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .hide-mob {
+        display: none;
+    }
+    h2 {
+        font-size: 24px;
+    }
+}
+
+.table thead th {
+    min-width: 100px;
+}
+
+#wb-api-football-modal {
+    z-index: 2 !important;
+}
+
+#standings {
+    font-family: Product sans, Sans-serif !important;
+}
+
+#standings td {
+    font-size: 16px !important;
+}

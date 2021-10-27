@@ -1,0 +1,125 @@
+.navbar-top {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.navbar-top a.login,
+.navbar-top .navbar-nav li a {
+    color: #002032 !important;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.navbar-top a.btn-primary {
+    font-size: 16px;
+}
+
+.navbar-top .navbar-nav li:hover a {
+    color: var(--color-primary) !important;
+}
+
+.navbar-top .navbar-nav li.active a,
+.navbar-top a.login:hover,
+.navbar-top a.active {
+    color: var(--color-primary) !important;
+}
+
+.navbar-toggler {
+    background-color: #fff !important;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0px;
+}
+
+.navbar-toggler i {
+    color: #fff;
+}
+
+.mob-top-nav li {
+    display: flex;
+    align-items: center;
+}
+
+.side-mobile-nav {
+    background: rgba(0, 32, 50, 0.96);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    height: 100vh;
+    /* transition: all 0.3s ease;
+
+    -webkit-transition: all 0.3s ease;
+
+    right: -100%; */
+    display: none;
+}
+
+.side-mobile-nav.active {
+    right: 0;
+}
+
+.side-mobile-nav .side-nav-header {
+    height: 65px;
+    line-height: 65px;
+    text-align: right;
+    padding: 0px 20px;
+}
+
+.side-mobile-nav .side-nav-header img {
+    max-width: 25px;
+    cursor: pointer;
+}
+
+.side-mobile-nav ul li a {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.side-mobile-nav ul li a.btn-primary {
+    max-width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.side-mobile-nav ul li a.btn-primary:hover {
+    background-color: var(--color-primary) !important;
+    opacity: 0.7;
+    color: #fff !important;
+}
+
+.side-mobile-nav ul li a.btn-primary:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+.side-mobile-nav ul li a:hover {
+    color: var(--color-primary);
+}
+
+@media (max-width: 992px) {
+    .navbar-top {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+@media (max-width: 560px) {
+    .navbar-top .navbar .navbar-brand {
+        margin-right: 0px;
+    }
+    .navbar-top .navbar .navbar-brand img {
+        max-width: 200px;
+    }
+}
