@@ -36,12 +36,12 @@
 				<div class = "col-12">
 					
 					<p>
-						Blockchain Algorithms has developed its own trading algorithm code named Algor 442, based upon artificial intelligence (“AI”) which constantly refines and innovates the underlying assumptions and strategy. The trading system continuously evolves, and the self-learning algorithm develops with each trade. The system has been back-tested on 5 years of historical data and has been privately traded for 2 years successfully. 
+						AlgoSports Group has developed its own trading algorithm code named Algor 442, based upon artificial intelligence (“AI”) which constantly refines and innovates the underlying assumptions and strategy. The trading system continuously evolves, and the self-learning algorithm develops with each trade. The system has been back-tested on 5 years of historical data and has been privately traded for 2 years successfully. 
 
 					</p>
 					
 					<p>
-						Blockchain Algorithms operates an uncorrelated investment strategy, independent of prevailing economic conditions; in other words it is recession-proof and offers returns independent of any other mainstream investment product.
+						AlgoSports Group operates an uncorrelated investment strategy, independent of prevailing economic conditions; in other words it is recession-proof and offers returns independent of any other mainstream investment product.
 					</p>
 					
 					<p>

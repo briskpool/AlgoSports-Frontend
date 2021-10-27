@@ -1,7 +1,7 @@
 <?php
 
 $currentPage = 'home'; // current page name....
-$pageTitle = 'Blockchain Algorithms';
+$pageTitle = 'AlgoSports Group';
 include 'header.php';
 include 'send_email.php';
 
@@ -19,7 +19,7 @@ include 'send_email.php';
 
         <div class="row">
 
-            <div class="col-md-7 mt-md-4 order-last order-md-first">
+            <div class="col-md-12 mt-md-4 order-last order-md-first">
 
 
                 <h1>
@@ -38,11 +38,11 @@ include 'send_email.php';
 
             </div>
 
-            <div class="col-md-5 order-first order-md-last">
+            <!-- <div class="col-md-5 order-first order-md-last">
 
                 <img class="w-100 player-img" src="images/home/player1.png" alt="player">
 
-            </div>
+            </div> -->
 
         </div>
 
@@ -57,7 +57,7 @@ include 'send_email.php';
         <div class="sec-top-pra text-center fadeIn wow animated delay-1">
             <h2>Download Our Mobile App</h2>
             <p>
-                Blockchain Algorithms works on all major platforms, enabling seamless experience <br/>across your browser, mobile device, tablet, and computer.
+                AlgoSports Group works on all major platforms, enabling seamless experience <br/>across your browser, mobile device, tablet, and computer.
             </p>
 
             <p class="py-3">
@@ -143,7 +143,7 @@ include 'send_email.php';
 
             <p>
 
-                Blockchain Algorithms has developed its own trading algorithm (“Algo442”), based upon artificial intelligence (“AI”) which constantly refines and innovates the underlying assumptions and strategy. The trading system continuously evolves, and the self-learning algorithm develops with each trade. The system has been back-tested on 5 years of historical data and has been privately traded for 2 years successfully at Blockchain Algorithms.
+                AlgoSports Group has developed its own trading algorithm (“Algo442”), based upon artificial intelligence (“AI”) which constantly refines and innovates the underlying assumptions and strategy. The trading system continuously evolves, and the self-learning algorithm develops with each trade. The system has been back-tested on 5 years of historical data and has been privately traded for 2 years successfully at AlgoSports Group.
 
             </p>
 
@@ -203,7 +203,7 @@ include 'send_email.php';
 
                         <p class="card-pra">
 
-                            Blockchain Algorithms has developed its own trading algorithm code named Algor 442, based upon artificial intelligence (“AI”) which constantly refines and innovates the underlying assumptions and strategy.
+                            AlgoSports Group has developed its own trading algorithm code named Algor 442, based upon artificial intelligence (“AI”) which constantly refines and innovates the underlying assumptions and strategy.
 
                         </p>
 
@@ -235,7 +235,7 @@ include 'send_email.php';
 
                         <p class="card-pra">
 
-                            Our team remains deeply embedded in both the sports and financial markets meaning they are able to provide our clients with the peace of mind that all the staff at Blockchain Algorithms are experienced experts in their fields
+                            Our team remains deeply embedded in both the sports and financial markets meaning they are able to provide our clients with the peace of mind that all the staff at AlgoSports Group are experienced experts in their fields
 
                         </p>
 
@@ -275,7 +275,7 @@ include 'send_email.php';
 
                 <h2>
 
-                    Blockchain Algorithms
+                    AlgoSports Group
 
                 </h2>
 
@@ -737,7 +737,7 @@ include 'send_email.php';
 
                             <h3 class="text-center">
 
-                                We would love to hear from you at Blockchain Algorithms
+                                We would love to hear from you at AlgoSports Group
 
                             </h3>
 

@@ -80,7 +80,7 @@
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     text-align: center;
     line-height: 90px;
     margin: auto;
@@ -107,9 +107,10 @@
 }
 
 .sec-c .card {
-    background: linear-gradient(68.58deg, #91288F 44.5%, #0083CB 111.57%);
+    background: linear-gradient(180deg, #38E54A 44.5%, #0EA647 111.57%);
     border-radius: 6px;
-    color: #fff;
+    color: var(--color-secondary);
+    border: transparent;
 }
 
 .sec-c .card h3 {
