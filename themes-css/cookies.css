@@ -50,7 +50,7 @@
 }
 ::selection {
   color: #fff;
-  background: #91288f;
+  background: var(--color-primary);
 }
 .content header {
   /* font-size: 20px; */

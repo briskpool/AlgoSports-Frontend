@@ -13,7 +13,7 @@ include 'send_email.php';
 
 
 
-<section class="home-banner py-3 py-md-5 bg-dark text-light">
+<section class="home-banner py-3 py-md-5 bg-dark text-light" style="padding:100px 0px !important;">
 
     <div class="container py-3 py-md-5 text-center text-md-left fadeIn wow animated delay-1">
 
@@ -649,7 +649,7 @@ include 'send_email.php';
 
                             <p>
 
-                                info@blockchainalgorithms.co
+                                info@algosportsglobal.com
 
                             </p>
 

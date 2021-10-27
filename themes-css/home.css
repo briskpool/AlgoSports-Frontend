@@ -188,7 +188,7 @@
     border-radius: 50%;
     line-height: 85px;
     text-align: center;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     /* position: absolute;
     top: 0;
     left: 0; */
@@ -221,8 +221,8 @@
 }
 
 .contact-form .card .form-group .form-control {
-    background: rgba(0, 131, 203, 0.2);
-    border: 2px solid #005280;
+    background: rgb(255 255 255 / 4%);
+    border: 2px solid #323460;
     border-radius: 6px;
     color: #fff;
 }
