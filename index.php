@@ -218,7 +218,7 @@
 						<div class="ic-div mb-3">
 							<img src="images/icons/trade_ic.svg" alt="icon-trade">
 						</div>
-						<h1>Integrity</h1>
+						<h1>Trade</h1>
 						<p>
 							The management team we have in place is comprised not just of experienced 
 							financial services professionals, traders, data analysts, eminent mathematicians 

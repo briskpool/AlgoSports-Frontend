@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
   <title>AlgoSports Group</title>
+	<meta property="title" content="AlgoSports Group" />
+  <meta property="description" content="To meet today's challenges, we have created a unique fund management system" />
+	<meta property="keywords" content="algo, sports, group, algoSports, algoSportsGroup, sports trading, fund management, Premier League, upcoming matches" />
   <link rel="shortcut icon" type="image/png" href="images/favicon.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
