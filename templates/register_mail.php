@@ -273,7 +273,7 @@
 
                                                     <td align="left" valign="top" style="padding: 0px 20px 0px 20px; text-align: center; 
 												background-color: #fff; overflow: hidden;border-bottom: 1px solid #E2E2E2;">
-                                                        <img style="width: 180px; margin-top:20px;margin-bottom:20px;" alt="blockhian" src="http://accounts.blockchainalgorithms.co/images/BA-logo.png">
+                                                        <img style="width: 180px; margin-top:20px;margin-bottom:20px;" alt="blockhian" src="http://accounts.algosportsgroup.com/images/logo.png">
                                                     </td>
 
                                                 </tr>
@@ -296,17 +296,17 @@
 
                                                     <td class="mobile-p" align="left" style="padding:0px 40px 0px 40px; 
 													font-family: 'Product sans bold;line-height: 1.5;">
-                                                        <h1 style="text-align:left; font-weight:700; font-size:20px;color: #91288F;font-family: 'Product sans bold', sans-serif;">
+                                                        <h1 style="text-align:left; font-weight:700; font-size:20px;color: #2AD588;font-family: 'Product sans bold', sans-serif;">
                                                             <span style="font-weight:500;">Registration Request</span>
                                                         </h1>
                                                         <p class="mobile-p" align="left" style="font-weight: 400; margin-top:20px !important;
-														margin-bottom: 10px !important;font-size: 16px; color: #000;font-family: 'Product sans bold', sans-serif;">
+														margin-bottom: 10px !important;font-size: 16px; color: #000;font-family: 'Product sans', sans-serif;">
                                                             <b>Full Name:</b> {{f_name}} {{l_name}}
                                                         </p>
 
-                                                        <p class="mobile-p" align="left" style="font-weight: 700; margin-top:20px !important;
-														margin-bottom: 10px !important;font-size: 16px; color: #000;font-family: 'Product sans bold', sans-serif;">
-                                                            Email: {{email}}
+                                                        <p class="mobile-p" align="left" style="font-weight: 400; margin-top:10px !important;
+														margin-bottom: 10px !important;font-size: 16px; color: #000;font-family: 'Product sans', sans-serif;">
+                                                            <b>Email:</b> {{email}}
                                                         </p>
                                                         <p class="mobile-p" align="left" style="font-weight: 400; margin-top:15px;
 														margin-bottom: 10px !important;font-size: 16px; color: #000;font-family: 'Product sans', sans-serif;">
@@ -338,7 +338,7 @@
                                                         <p class="mobile-p" align="center" style="font-weight: 400; margin-top:5px;
 														margin-bottom: 10px !important;font-size: 16px; color: #626262;font-family: 'Product sans', sans-serif;">
                                                             Regards, <br>
-                                                            Blockchain Algorithms Team
+                                                            AlgoSports Group
                                                         </p>
                                                     </td>
 
@@ -392,15 +392,15 @@
                                                                 <td class="mobile-p mob-td" align="left" style="padding:10px 40px 0px 40px; font-family: 'Product sans', sans-serif;line-height: 1.5; font-weight:400;font-size:14px;">
                                                                     <ul class="f-list">
                                                                         <li>
-                                                                            <a style="color: #91288F" href="https://www.blockchainalgorithms.co">
-                                                                                www.blockchainalgorithms.co
+                                                                            <a style="color: #91288F" href="http://www.algosportsgroup.com">
+                                                                                www.algosportsgroup.com
                                                                             </a>
                                                                         </li>
                                                                     </ul>
                                                                 </td>
                                                                 <td class="mobile-p mob-td" align="right" style="padding:10px 40px 0px 40px; font-family: 'Roboto', sans-serif;line-height: 1.5; font-weight:400;">
-                                                                    <a href="https://twitter.com/AlgorithmsHQ/" style="margin-right:5px;">
-                                                                        <img src="https://accounts.blockchainalgorithms.co/images/email/twitter.png" alt="twitter-icon">
+                                                                    <a href="https://twitter.com/AlgoSportsGroup" style="margin-right:5px;">
+                                                                        <img src="http://accounts.algosportsgroup.com/images/email/twitter.png" alt="twitter-icon">
                                                                     </a>
                                                                 </td>
                                                             </tr>
@@ -411,8 +411,8 @@
 																			margin-bottom: 5px !important;font-size: 14px; color: #626262;font-family: 'Product sans', sans-serif;">
                                                                         See our reviews on
                                                                     </p>
-                                                                    <a href="https://uk.trustpilot.com/review/blockchainalgorithms.co?utm_medium=trustbox&utm_source=MicroReviewCount" style="margin-right:5px;">
-                                                                        <img src="https://accounts.blockchainalgorithms.co/images/trust-pilot.png" style="height:45px" alt="trust-pilot-icon">
+                                                                    <a href="https://www.trustpilot.com/review/algosportsgroup.com" style="margin-right:5px;">
+                                                                        <img src="http://accounts.algosportsgroup.com/images/trust-pilot.png" style="height:45px" alt="trust-pilot-icon">
                                                                     </a>
                                                                 </td>
                                                             </tr>
@@ -420,7 +420,7 @@
                                                                 <td colspan="2" class="mobile-p mob-td" align="left" style="padding:10px 40px 0px 40px; font-family: 'Product sans', sans-serif;line-height: 1.5; font-weight:400;font-size:14px;">
                                                                     <p class="mobile-p" align="left" style="font-weight: 400; margin-top:15px;
 																			margin-bottom: 10px !important;font-size: 14px; color: #626262;font-family: 'Product sans', sans-serif;">
-                                                                        This email and any attachments to it are confidential and intended solely for the person to whom they are addressed. They may contain legally privileged information. If you have received this in error, please delete this message and let us know by emailing info@blockchainalgorithms.co. The messaging system from which this e-mail was sent is checked regularly for viruses. No liability is accepted for any viruses which may be transmitted in or with this e-mail from Blockchain Algorithms.
+                                                                        This email and any attachments to it are confidential and intended solely for the person to whom they are addressed. They may contain legally privileged information. If you have received this in error, please delete this message and let us know by emailing info@algosportsgroup.com. The messaging system from which this e-mail was sent is checked regularly for viruses. No liability is accepted for any viruses which may be transmitted in or with this e-mail from AlgoSports Group.
                                                                     </p>
                                                                 </td>
                                                             </tr>

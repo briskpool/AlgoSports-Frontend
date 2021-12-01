@@ -13,6 +13,7 @@
         }
         cookieAlert.offsetHeight;
         function func1(){
+            console.log("running");
             if (!getCookie("acceptCookies")) {
                 cookieAlert.classList.remove("wrapper-hidden");
                 cookieAlert.classList.add("wrapper");

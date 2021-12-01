@@ -1,26 +1,34 @@
-<?php
-$currentPage = 'All Fixtures'; // current page name....
-$pageTitle = 'All Fixtures';
-include 'header.php';
-?>
+<?php 
+	$currentPage = 'privacy'; // current page name....
+	include 'header.php'; ?>
+
+<body>
 
 <?php include 'navbar.php'; ?>
 
 
-<section class="Privacy-sec reg-form py-3 py-md-5">
-    <div class="container py-3 py-md-5 fadeIn wow animated delay-1">
-        <h2 class="text-center mb-5">
-            All Matches
-        </h2>
-        <div class="privacy_terms-sec w-100">
-            <div class="row" id="all_fixtures">
-
-
-
-            </div>
-        </div>
-    </div>
+<section class="page-sec sec-banner">
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-12">
+				<h1 class = "my-5">
+                    All Matches
+				</h1>
+			</div>
+		</div>
+	</div>
 </section>
+
+<section class="page-sec about inner-page">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+            <div class="row" id="all_fixtures">
+			</div>
+		</div>
+	</div>
+</section>
+
 
 
 <?php include 'footer.php'; ?>

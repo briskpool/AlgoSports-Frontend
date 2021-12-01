@@ -50,7 +50,7 @@
             "url": "https://api-football-v1.p.rapidapi.com/v3/fixtures?league=39&season=2021&timezone=Europe/London&next=9",
             "method": "GET",
             "headers": {
-                "x-rapidapi-key": "2c254db3famsh3f8ef7b2d38b11ep1c40b9jsnb6f9f28d0bb3",
+                "x-rapidapi-key": "5a064d629amsh0e00769af305bdap180755jsnb03e3a7f19f0",
                 "x-rapidapi-host": "api-football-v1.p.rapidapi.com"
             }
         };
@@ -132,88 +132,7 @@
 
         });
 
-        
-///////////////////////////////Standings//////////////////////////
-const standing = {
-    "async": true,
-    "crossDomain": true,
-    "url": "https://api-football-v1.p.rapidapi.com/v3/standings?season=2021&league=39",
-    "method": "GET",
-    "headers": {
-        "x-rapidapi-key": "2c254db3famsh3f8ef7b2d38b11ep1c40b9jsnb6f9f28d0bb3",
-        "x-rapidapi-host": "api-football-v1.p.rapidapi.com"
-    }
- };
-
-// $.ajax(standing).done(function(response) {
-//             // console.log(response.response[0].league.standings);
-//             data = response.response[0].league.standings[0];
+  
 
 
-//                 standing_table = '<thead>'+
-//                         '<tr class="bg-colors fadeIn wow animated delay-1 animated" style="visibility: visible; animation-name: fadeIn;">'+
-
-//                             '<th class="px-3" style="color: #91288f">Rank</th>'+
-//                             '<th class="px-3" style="color: #91288f" colspan="2">Team</th>'+
-//                             '<th class="px-3" style="color: #91288f">P</th>'+
-//                             '<th class="px-3" style="color: #91288f">W</th>'+
-//                             '<th class="px-3" style="color: #91288f">D</th>'+
-//                             '<th class="px-3" style="color: #91288f">L</th>'+
-//                             '<th class="px-3" style="color: #91288f">GS</th>'+
-//                             '<th class="px-3" style="color: #91288f">GA</th>'+
-//                             '<th class="px-3" style="color: #91288f">GD</th>'+
-//                             '<th class="px-3" style="color: #91288f">PTS</th>'+
-//                         '</tr>'+
-//                     '</thead>'+
-//                     '<tbody id="standings">'+
-
-//                     '</tbody>';
-
-//                     $('#standing_table').html(standing_table);
-//             // console.log(data.length);
-//             // const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-//             for (i = 0; i < data.length; i++) {
-                
-//                 team_name = data[i].team.name;
-//                 team_logo = data[i].team.logo;
-//                 rank = data[i].rank;
-//                 played = data[i].all.played;
-//                 win = data[i].all.win;
-//                 draw = data[i].all.draw;
-//                 lose = data[i].all.lose;
-//                 gs = data[i].all.goals.for;
-//                 ga = data[i].all.goals.against;
-//                 gd = data[i].goalsDiff;
-//                 points = data[i].points;
-               
-                
-
-                
-//                 output_standings =
-                   
-//                      '<tr class="fadeIn wow animated delay-1 animated" style="visibility: visible; animation-name: fadeIn;">'+
-//                     '<td class="align-middle" style="color: rgb(17, 17, 17);">'+rank+'</td>'+
-//                     '<td class="align-middle" class="align-middle" style="color: rgb(17, 17, 17);">'+
-//                     '<img src="'+team_logo+'" alt="" width="40px" />'+
-//                     '</td>'+
-//                     '<td class="align-middle" style="color: rgb(17, 17, 17);">'+team_name+'</td>'+
-//                     '<td class="align-middle" style="color: rgb(17, 17, 17);">'+played+'</td>'+
-//                     '<td class="align-middle" style="color: rgb(17, 17, 17);">'+win+'</td>'+
-//                     '<td class="align-middle" style="color: rgb(17, 17, 17);">'+draw+'</td>'+
-//                     '<td class="align-middle" style="color: rgb(17, 17, 17);">'+lose+'</td>'+
-//                     '<td class="align-middle" style="color: rgb(17, 17, 17);">'+gs+'</td>'+
-//                     '<td class="align-middle" style="color: rgb(17, 17, 17);">'+ga+'</td>'+
-//                     '<td class="align-middle" style="color: rgb(17, 17, 17);">'+gd+'</td>'+
-//                     '<td class="align-middle" style="color: rgb(17, 17, 17);">'+points+'</td>'+
-                    
-//                 '</tr>';
-                    
-
-                
-//                 $('#standings').append(output_standings);
-//             }
-
-
-//         });
-        
  

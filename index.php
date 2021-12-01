@@ -1,860 +1,577 @@
-<?php
+<?php 
+	$currentPage = 'home'; // current page name....
+	include 'header.php'; ?>
 
-$currentPage = 'home'; // current page name....
-$pageTitle = 'AlgoSports Group';
-include 'header.php';
-include 'send_email.php';
-
-?>
-
-
+<body>
 
 <?php include 'navbar.php'; ?>
 
-
-
-<section class="home-banner py-3 py-md-5 bg-dark text-light" style="padding:100px 0px !important;">
-
-    <div class="container py-3 py-md-5 text-center text-md-left fadeIn wow animated delay-1">
-
-        <div class="row">
-
-            <div class="col-md-12 mt-md-4 order-last order-md-first">
-
-
-                <h1>
-
-                    A New League In Sports Trading
-
-                </h1>
-
-
-
-                <a href="registration.php" class="btn btn-primary px-5 mt-3">
-
-                    Register
-
-                </a>
-
-            </div>
-
-            <!-- <div class="col-md-5 order-first order-md-last">
-
-                <img class="w-100 player-img" src="images/home/player1.png" alt="player">
-
-            </div> -->
-
-        </div>
-
-    </div>
-
-</section>
-
-<section class="sec-b py-3 py-md-3 bg-white">
-
-    <div class="container py-3 py-md-4">
-
-        <div class="sec-top-pra text-center fadeIn wow animated delay-1">
-            <h2>Download Our Mobile App</h2>
-            <p>
-                AlgoSports Group works on all major platforms, enabling seamless experience <br/>across your browser, mobile device, tablet, and computer.
-            </p>
-
-            <p class="py-3">
-                <a href="https://play.google.com/store/apps/details?id=com.app.blockchainalgorithms"><img src="images/home/icon_GooglePlay.svg" alt=""></a>
-            </p>
-
-        </div>
-
-    </div>
-
-
-
+<section class="home-banner banner-area">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-7 mb-3 mb-md-0 order-last order-md-first">
+				<h1>
+					A NEW LEAGUE IN
+					<br>
+					<span>
+						SPORTS TRADING
+					</span>
+				</h1>
+				<p class = "mb-5">
+					Right time to open your account 
+				</p>
+				<a href="register.php" class="btn btn-primary me-md-3">
+					Rigester Now
+				</a>
+				<a href="#" class="google-ply-btn">
+					<img src="images/googlePlay.png" alt="google-ply-btn">
+				</a>
+			</div>
+			<div class="col-md-5 order-first order-md-last mb-3 mb-md-0 text-center">
+				<img class = "banner-img" src="images/banner-main.png" alt="banner-img">
+			</div>
+		</div>
+	</div>
 </section>
 
 
-
-<section class="py-3 pt-md-2">
-    <h2 class="fadeIn wow animated delay-1 animated text-center mb-3 mb-md-4" style="visibility: visible; animation-name: fadeIn;">Live Markets</h2>
-    <div class="container">
-        <div id="wg-api-football-fixtures" data-host="api-football-v1.p.rapidapi.com" data-refresh="60" data-date="" data-league="39" data-team="" data-season="2021" data-last="7" data-next="" data-key="2c254db3famsh3f8ef7b2d38b11ep1c40b9jsnb6f9f28d0bb3" data-theme="" data-show-errors="false" class="api_football_loader">
-        </div>
-        <script type="module" src="https://widgets.api-sports.io/football/1.1.8/widget.js">
-        </script>
-    </div>
-</section>
-<section class="py-3 py-md-5">
-    <h2 class="fadeIn wow animated delay-1 animated text-center mb-3 mb-md-4 mt-5" style="visibility: visible; animation-name: fadeIn;">Upcoming Matches</h2>
-    <div class="container">
-        <div class="swiper px-0 " id="mySwiper">
-            <div class="swiper-wrapper py-5">
-            </div>
-            <div class="swiper-pagination"></div>
-        </div>
-        <div class="row">
-
-            <div class="col text-center fadeIn wow animated delay-1 animated" style="visibility: visible; animation-name: fadeIn;">
-
-                <a href="all-fixtures.php" class="btn btn-primary">
-
-                    See All Matches
-
-                </a>
-
-            </div>
-
-        </div>
-    </div>
-</section>
-<!-- <section class="py-3 py-md-5">
-    <h2 class="fadeIn wow animated delay-1 animated text-center mb-3 mb-md-4 mt-5" style="visibility: visible; animation-name: fadeIn;">Standings</h2>
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <table class="table" id="standing_table" style="visibility: visible; animation-name: fadeIn;">
-                    Data coming from javascript (f1-ranks.js) 
-</table>
-</div>
-</div>
-</div>
-</section>-->
-<section class="sec-b py-3 py-md-5 bg-white">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8 ">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/irhqocDSuVA?rel=0" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
+<section class="page-sec px-3">
+	<div class="container how-it-work">
+		<div class="row">
+			<div class="col-12">
+				<div class="step-sec">
+					<h1>
+						How it Works?
+					</h1>
+					<div class="row mx-0">
+						<div class="col-md-4 mb-3 mb-md-0">
+							<h2>
+								<div class="num-mark">1</div>
+								1<span>st</span> step
+							</h2>
+							<p>
+								How this step will guide you to use the platform.
+							</p>
+						</div>
+						<div class="col-md-4 mb-3 mb-md-0">
+							<h2>
+								<div class="num-mark">2</div>
+								2<span>nd</span> step
+							</h2>
+							<p>
+								How this step will guide you to use the platform.
+							</p>
+						</div>
+						<div class="col-md-4 mb-3 mb-md-0">
+							<h2>
+								<div class="num-mark">3</div>
+								3<span>rd</span> step
+							</h2>
+							<p>
+								How this step will guide you to use the platform.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
-
-
-
-
-<section class="sec-b py-3 py-md-5 bg-white">
-
-    <div class="container py-3 py-md-4">
-
-        <div class="sec-top-pra pb-3 text-center fadeIn wow animated delay-1">
-            <h2>About Us</h2>
-
-            <p>
-
-                AlgoSports Group has developed its own trading algorithm (“Algo442”), based upon artificial intelligence (“AI”) which constantly refines and innovates the underlying assumptions and strategy. The trading system continuously evolves, and the self-learning algorithm develops with each trade. The system has been back-tested on 5 years of historical data and has been privately traded for 2 years successfully at AlgoSports Group.
-
-            </p>
-
-        </div>
-
-        <div class="row justify-content-center">
-
-            <div class="col-lg-4 mb-3 mb-lg-0">
-
-                <div class="card h-100 fadeIn wow animated delay-1">
-
-                    <div class="card-body">
-
-                        <p class="card-img">
-
-                            <img src="images/icons/trend1.svg" alt="icons-card">
-
-                        </p>
-
-                        <p class="card-title">
-
-                            Trading
-
-                        </p>
-
-                        <p class="card-pra">
-
-                            The management team we have in place is comprised not just of experienced financial services professionals, traders, data analysts, eminent mathematicians and statisticians, but also former professional football players, managers, and sports media personalities.
-
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-            <div class="col-lg-4 mb-3 mb-lg-0">
-
-                <div class="card h-100 fadeIn wow animated delay-1">
-
-                    <div class="card-body">
-
-                        <p class="card-img">
-
-                            <img src="images/icons/technology-icon.svg" alt="icons-card">
-
-                        </p>
-
-                        <p class="card-title">
-
-                            Technology
-
-                        </p>
-
-                        <p class="card-pra">
-
-                            AlgoSports Group has developed its own trading algorithm code named Algor 442, based upon artificial intelligence (“AI”) which constantly refines and innovates the underlying assumptions and strategy.
-
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-            <div class="col-lg-4 mb-3 mb-lg-0">
-
-                <div class="card h-100 fadeIn wow animated delay-1">
-
-                    <div class="card-body">
-
-                        <p class="card-img">
-
-                            <img src="images/icons/integrity-icon.svg" alt="icons-card">
-
-                        </p>
-
-                        <p class="card-title">
-
-                            Integrity
-
-                        </p>
-
-                        <p class="card-pra">
-
-                            Our team remains deeply embedded in both the sports and financial markets meaning they are able to provide our clients with the peace of mind that all the staff at AlgoSports Group are experienced experts in their fields
-
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-
-        <div class="row py-3 mt-4">
-
-            <div class="col btn-col text-center fadeIn wow animated delay-1">
-
-                <a href="registration.php" class="btn btn-primary">
-
-                    Account Opening
-
-                </a>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-
-    <div class="container py-3 py-md-4 blockchain-agl">
-
-        <div class="row">
-
-            <div class="col-12 mb-3 mb-md-4 mt-5 text-center fadeIn wow animated delay-1">
-
-                <h2>
-
-                    AlgoSports Group
-
-                </h2>
-
-                <p>
-
-                    To meet today's challenges, we have created a unique fund management system
-
-                </p>
-
-            </div>
-
-        </div>
-
-
-
-        <div class="row">
-
-            <div class="col-12">
-
-                <ul class="nav justify-content-center text-center fadeIn wow animated delay-1">
-
-                    <li class="nav-item px-3 mb-3 mb-md-0">
-
-                        <div class="circle-icon">
-
-                            <img src="images/icons/efficiency.svg" alt="icons">
-
-                        </div>
-
-                        Efficiency
-
-                    </li>
-
-                    <li class="nav-item px-3 mb-3 mb-md-0">
-
-                        <div class="circle-icon">
-
-                            <img src="images/icons/experience.svg" alt="icons">
-
-                        </div>
-
-                        Experience
-
-                    </li>
-
-                    <li class="nav-item px-3 mb-3 mb-md-0">
-
-                        <div class="circle-icon">
-
-                            <img class="rsi" src="images/icons/security.svg" alt="icons">
-
-                        </div>
-
-                        Security
-
-                    </li>
-
-                    <li class="nav-item px-3 mb-3 mb-md-0">
-
-                        <div class="circle-icon">
-
-                            <img src="images/icons/eye-ic.svg" alt="icons">
-
-                        </div>
-
-                        Transparency
-
-                    </li>
-
-                    <li class="nav-item px-3 mb-3 mb-md-0">
-
-                        <div class="circle-icon">
-
-                            <img src="images/icons/reliable.svg" alt="icons">
-
-                        </div>
-
-                        Reliable
-
-                    </li>
-
-                    <li class="nav-item px-3 mb-3 mb-md-0">
-
-                        <div class="circle-icon">
-
-                            <img class="rsi" src="images/icons/complience.svg" alt="icons">
-
-                        </div>
-
-                        Compliance
-
-                    </li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-
+<section class="page-sec up-coming-matches pt-2">
+	<div class="container">
+		<div class="row p-4 align-items-center">
+
+			<div class="col-md-8 mb-3 mb-md-0 ps-md-0">
+				<h1>
+					Premier League
+				</h1>
+			</div>
+			<div class="col-md-4 text-end pe-md-0 d-none d-md-block">
+				<a href="register.php" class="btn btn-primary">
+					Open Account
+				</a>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div class="matche-navbar p-3 mb-2">
+					<ul class="nav" id="tabs">
+						<li class="nav-item current">
+							<a href="#tab-standings" class="nav-link">
+								Standings
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#tab-fixtures" class="nav-link">
+								Fixtures
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#upcoming_matches" class="nav-link">
+								Upcoming Matches
+							</a>
+						</li>
+						<!-- <li class="nav-item">
+							<a href="#formula-1" class="nav-link">
+								Formula 1
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#rugby" class="nav-link">
+								UFC
+							</a>
+						</li> -->
+					</ul>
+				</div>
+			</div>
+			
+			<div class="col-12">
+				<div class="matche-content p-4 p-lg-5" id="content">
+					<div id="tab-standings" class = "current content-wrapper animated">
+						<div class="container">
+							<div id="wg-api-football-standings"
+								data-host="api-football-v1.p.rapidapi.com"
+								data-league="39"
+								data-team=""
+								data-season="2021"
+								data-key="5a064d629amsh0e00769af305bdap180755jsnb03e3a7f19f0"
+								data-theme=""
+								data-show-errors="false"
+								class="api_football_loader">
+							</div>
+							<script type="module" src="https://widgets.api-sports.io/football/1.1.8/widget.js">
+							</script>
+											
+						</div>
+					</div>
+					<div id="tab-fixtures" class = " content-wrapper animated">
+						<div class="container">
+							<div id="wg-api-football-fixtures" data-host="api-football-v1.p.rapidapi.com" data-theme="dark" data-refresh="60" data-date="" data-league="39" data-team="" data-season="2021" data-last="20" data-next="" data-key="5a064d629amsh0e00769af305bdap180755jsnb03e3a7f19f0" data-theme="" data-show-errors="false" class="api_football_loader">
+									</div>
+							<script type="module" src="https://widgets.api-sports.io/football/1.1.8/widget.js">
+							</script>
+											
+						</div>
+					</div>
+					<div id = "upcoming_matches" class = "content-wrapper animated">
+						
+						<div class="swiper px-0 " id="mySwiper">
+							<div class="swiper-wrapper py-5">
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+
+						<div class="row mt-2">
+							<div class="col text-center">
+								<a href="all-fixtures.php">
+									SEE ALL MATCHES
+								</a>
+							</div>
+						</div>
+
+					</div>
+
+					<div id="rugby" class = "content-wrapper animated">
+						<p class = "text-light">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam omnis cum 
+							iure eos deleniti, explicabo fuga nihil minima corporis reiciendis at dolorum 
+							perspiciatis ratione eveniet, veritatis enim, nobis minus numquam.
+						</p>
+					</div>
+					<div id="formula-1" class = "content-wrapper animated">
+						<p class = "text-light" >
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam omnis cum 
+							iure eos deleniti, explicabo fuga nihil minima corporis reiciendis at dolorum 
+							perspiciatis ratione eveniet, veritatis enim, nobis minus numquam.
+						</p>
+					</div>
+					<div id="ufc" class = "content-wrapper">
+						<p class = "text-light">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam omnis cum 
+							iure eos deleniti, explicabo fuga nihil minima corporis reiciendis at dolorum 
+							perspiciatis ratione eveniet, veritatis enim, nobis minus numquam.
+						</p>
+					</div>
+
+				</div>
+				
+			</div>
+
+			<div class="col-md-4 text-center d-md-none mt-4 d-grid">
+				<a href="register.php" class="btn btn-primary">
+					Open Account
+				</a>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section class="page-sec sec-b">
+	<div class="container">
+		<div class="row g-3">
+			<div class="col-md-4">
+				<div class="card h-100">
+					<div class="card-body text-center">
+						<div class="ic-div mb-3">
+							<img src="images/icons/trade_ic.svg" alt="icon-trade">
+						</div>
+						<h1>Integrity</h1>
+						<p>
+							The management team we have in place is comprised not just of experienced 
+							financial services professionals, traders, data analysts, eminent mathematicians 
+							and statisticians, but also former professional football players, managers, and 
+							sports media personalities.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card h-100">
+					<div class="card-body text-center">
+						<div class="ic-div mb-3">
+							<img src="images/icons/technology_ic.svg" alt="icon-technology">
+						</div>
+						<h1>Technology</h1>
+						<p>
+							AlgoSports has developed its own trading algorithm code named Algor
+							 442, based upon artificial intelligence (“AI”) which constantly 
+							 refines and innovates the underlying assumptions and strategy.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card h-100">
+					<div class="card-body text-center">
+						<div class="ic-div mb-3">
+							<img src="images/icons/integrity_ic.svg" alt="icon-integrity">
+						</div>
+						<h1>Integrity</h1>
+						<p>
+							Our team remains deeply embedded in both the sports and financial markets 
+							meaning they are able to provide our clients with the peace of mind that 
+							all the staff at Blockchain Algorithms are experienced experts in their 
+							fields
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="page-sec about">
+	<div class="container">
+		<div class="row g-5">
+			<div class="col-md-4">
+				<img src="images/about-us.png" alt="about-img">
+			</div>
+			<div class="col-md-8 ps-md-5">
+				<div class="about-content">
+					<h1>
+						<span>About</span> AlgoSports
+					</h1>
+
+					<p>
+					AlgoSports has developed its own trading algorithm (“Algo442”),
+					 based upon artificial intelligence (“AI”) which constantly refines 
+					 and innovates the underlying assumptions and strategy. The trading 
+					 system continuously evolves, and the self-learning algorithm develops 
+					 with each trade. The system has been back-tested on 5 years of historical 
+					 data and has been privately traded for 2 years successfully at Blockchain 
+					 Algorithms.
+					</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="page-sec algo-sec">
+	<div class="container text-center">
+		<h1>
+			AlgoSports
+		</h1>
+		<p>
+			To meet today's challenges, we have created a unique fund management system
+		</p>
+		<div class="row justify-content-center">
+
+			<div class="col-lg-2 col-md-3 col-6 mb-3 mb-lg-0">
+				<div class="card h-100">
+					<div class="card-body">
+						<img class = "mb-3" src="images/icons/efficiency.png" alt="card-ic">
+						Efficiency
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-3 col-6 mb-3 mb-lg-0">
+				<div class="card text-center h-100">
+					<div class="card-body">
+						<img class = "mb-3" src="images/icons/experience.png" alt="card-ic">
+						Experience
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-3 col-6 mb-3 mb-lg-0">
+				<div class="card text-center h-100">
+					<div class="card-body">
+						<img class = "mb-3" src="images/icons/security.png" alt="card-ic">
+						Security
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-3 col-6 mb-3 mb-lg-0">
+				<div class="card text-center h-100">
+					<div class="card-body">
+						<img class = "mb-3" src="images/icons/eye-ic.png" alt="card-ic">
+						Transparency
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-3 col-6 mb-3 mb-lg-0">
+				<div class="card text-center h-100">
+					<div class="card-body">
+						<img class = "mb-3" src="images/icons/reliable.png" alt="card-ic">
+						Reliable
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-3 col-6 mb-3 mb-lg-0">
+				<div class="card text-center h-100">
+					<div class="card-body">
+						<img class = "mb-3" src="images/icons/complience.png" alt="card-ic">
+						Compliance
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 mt-3 mt-md-5">
+				<a href="register.php" class="btn btn-white">
+					open account
+				</a>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section class="page-sec sec-c">
+	<div class="container text-center">
+		<h1>
+			A Sports Trading Experience Like You Have Never Seen Before
+		</h1>
+		<div class="row" id="counter">
+			<div class="col-md-4 mb-3 mb-md-0">
+				<div class="card h-100">
+					<div class="card-body">
+						<h2 class="counter" data-counter-time="2000" data-counter-delay="10">
+							<span>812500</span>
+						</h2>
+						<p class="mb-0">
+							REGISTERED USERS
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mb-3 mb-md-0">
+				<div class="card h-100">
+					<div class="card-body">
+						<h2 class="counter" data-counter-time="2000" data-counter-delay="10">	
+						<span>12</span>
+						</h2>
+						<p class="mb-0">
+							COUNTRIES SUPPORTED
+						</p>
+					</div>
+				</div>
+			</div>
+				
+			<div class="col-md-4 mb-3 mb-md-0">
+				<div class="card h-100">
+					<div class="card-body">
+						<h2 >
+							£ <span class="counter" data-counter-time="2000" data-counter-delay="10">2.1</span>M
+						</h2>
+						<p class="mb-0">
+							WITHDRAWN EACH MONTH
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 mt-4 mt-md-5">
+				<a href="register.php" class="btn btn-secondary">
+					START TRADING TODAY!
+				</a>
+			</div>
+
+		</div>
+	</div>
 </section>
 
 
-
-<section class="middle-banner py-4 py-md-5 bg-dark text-center text-white">
-
-    <div class="container py-3 py-md-5">
-
-        <div class="row mb-4">
-
-            <div class="col fadeIn wow animated delay-1">
-
-                <h2 class="mb-0">
-
-                    Experience The Future of
-
-                    Sports Trading
-
-                </h2>
-
-            </div>
-
-        </div>
-
-
-
-        <div class="row">
-
-            <div class="col fadeIn wow animated delay-1">
-
-                <a href="registration.php" class="btn btn-primary">
-
-                    Start Trading Today!
-
-                </a>
-
-            </div>
-
-        </div>
-
-    </div>
-
+<section class="page-sec sec-banner">
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-12">
+				<h1>
+					<span>A NEW LEAGUE IN </span> SPORTS TRADING
+				</h1>
+			</div>
+			<div class="col-12 mt-4 mt-md-5">
+				<a href="register.php" class="btn btn-primary">
+					START TRADING TODAY!
+				</a>
+			</div>
+		</div>
+	</div>
 </section>
 
-
-
-<div class="sec-c py-3 py-md-5">
-
-    <div class="container py-3 py-md-5 text-center">
-
-        <h2 class="fadeIn wow animated delay-1">
-
-            A Sports Trading Experience Like You
-
-            Have Never Seen Before
-
-        </h2>
-
-        <div class="row mt-3 justify-content-center">
-
-
-
-            <div class="col-lg-4 mb-3 mb-lg-0">
-
-                <div class="card h-100 fadeIn wow animated delay-1">
-
-                    <div class="card-body py-5">
-
-                        <h3 class="card-hd">
-
-                            812,500
-
-                        </h3>
-
-                        <p>
-
-                            Registered Users
-
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-            <div class="col-lg-4 mb-3 mb-lg-0">
-
-                <div class="card h-100 fadeIn wow animated delay-1">
-
-                    <div class="card-body py-5">
-
-                        <h3 class="card-hd">
-
-                            12
-
-                        </h3>
-
-                        <p>
-
-                            Countries Supported
-
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-            <div class="col-lg-4 mb-3 mb-lg-0">
-
-                <div class="card h-100 fadeIn wow animated delay-1">
-
-                    <div class="card-body py-5">
-
-                        <h3 class="card-hd">
-
-                            £2.1m
-
-                        </h3>
-
-                        <p>
-
-                            Withdrawn Each Month
-
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-        </div>
-
-
-
-        <div class="row mt-4">
-
-            <div class="col pt-md-4 fadeIn wow animated delay-1">
-
-                <a href="registration.php" class="btn btn-secondary">
-
-                    Start Investing
-
-                </a>
-
-            </div>
-
-        </div>
-
-
-
-    </div>
-
-</div>
-<div class="py-3 py-md-5 bg-light">
-
-    <div class="container py-3 py-md-5 text-center">
-
-        <h2 class="fadeIn wow animated delay-1">
-
-        Featured In
-
-        </h2>
-
-        <div class="row mt-3 justify-content-center">
-
-
-
-            <div class="col-lg-4 mb-3 mb-lg-0">
-                <div class="card-body py-2">
-                    <div class="card h-100 fadeIn wow animated delay-1">
-                        <img src="images/home/sunday.jpg" alt="The Sunday Times">
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 mb-3 mb-lg-0">
-                <div class="card-body py-2">
-                    <div class="card h-100 fadeIn wow animated delay-1">
-                        <img src="images/home/sun.jpg" alt="The Sun">
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 mb-3 mb-lg-0">
-                <div class="card-body py-2">
-                    <div class="card h-100 fadeIn wow animated delay-1">
-                        <img src="images/home/times.jpg" alt="The Times">
-                    </div>
-                </div>
-            </div>
-
-
-
-            <!-- <div class="col-lg-4 mb-3 mb-lg-0">
-
-                <div class="card h-100 fadeIn wow animated delay-1">
-                    <img src="images/home/sunday.jpg" alt="The Sunday Times">
-                </div>
-
-            </div>
-
-
-
-            <div class="col-lg-4 mb-3 mb-lg-0">
-
-                <div class="card h-100 fadeIn wow animated delay-1">
-                    <img src="images/home/times.jpg" alt="The Times">
-                </div>
-
-            </div> -->
-
-
-
-        </div>
-
-
-
-    </div>
-
-</div>
-
-
-
-<section class="contact-us py-3 py-md-5" id="contact-us">
-
-    <div class="container py-3 py-md-5">
-
-        <div class="row">
-
-            <div class="col-lg-6 text-center text-md-left fadeIn wow animated delay-1">
-
-                <h2 class="mb-0">
-
-                    Have A Question?
-
-                </h2>
-
-
-                <div class="contact-details mt-5">
-
-                    <ul class="nav contact-list">
-
-                        <li class="nav-list pr-2 img-li">
-
-                            <span class="icon-box email">
-
-                                <img src="images/icons/email.svg" alt="icon">
-
-                            </span>
-
-                        </li>
-
-                        <li class="nav-list pl-2">
-
-                            <div class="c-title">
-
-                                Email Us
-
+<section class="page-sec contact-details" id = "contact-us">
+	<div class="container">
+		<h1>
+			We would love to hear from you at AlgoSports Group
+		</h1>
+		<div class="row g-5">
+
+			<div class="col-md-8">
+				<div class="form-content">
+					<h2>
+						Contact Us
+					</h2>
+					<form action="">
+						<div class="form-group">
+							<label for="name">
+								Your Name
+							</label>
+							<input type="text" name="fname" class="form-control">
+							<div class="text-danger fname-error">  
                             </div>
+						</div>
 
-                            <p>
-
-                                info@algosportsglobal.com
-
-                            </p>
-
-                        </li>
-
-                    </ul>
-
-
-
-                    <ul class="nav contact-list">
-
-                        <li class="nav-list pr-2 img-li">
-
-                            <span class="icon-box call">
-
-                                <img src="images/icons/phone.svg" alt="icon">
-
-                            </span>
-
-                        </li>
-
-                        <li class="nav-list pl-2">
-
-                            <div class="c-title">
-
-                                Call Us
-
+						<div class="form-group">
+							<label for="email">
+								Email
+							</label>
+							<input type="text" name="email" class="form-control">
+							<div class="text-danger email-error">  
                             </div>
+						</div>
 
-                            <p>
-
-                                0800 0622 952
-
-                            </p>
-
-                        </li>
-
-                    </ul>
-
-
-
-                    <ul class="nav contact-list">
-
-                        <li class="nav-list pr-2 img-li">
-
-                            <span class="icon-box loc">
-
-                                <img src="images/icons/marker.svg" alt="icon">
-
-                            </span>
-
-                        </li>
-
-                        <li class="nav-list pl-2">
-
-                            <div class="c-title">
-
-                                Visit Us
-
+						<div class="form-group">
+							<label for="subject">
+								Subject
+							</label>
+							<input type="text" name="subject" class="form-control">
+							<div class="text-danger subject-error">  
                             </div>
-
-                            <p>
-
-                                Kemp House 160 City Road London <br />EC1V 2NX
-
-                            </p>
-
-                        </li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-
-
-
-            <div class="col-lg-6 fadeIn wow animated delay-2">
-
-                <div class="contact-form">
-
-                    <div class="card bg-secondary text-white">
-
-                        <div class="card-body">
-
-                            <h3 class="text-center">
-
-                                We would love to hear from you at AlgoSports Group
-
-                            </h3>
-
-
-
-                            <form action="" method="POST">
-
-
-
-                                <div class="form-group">
-
-                                    <label for="name">
-
-                                        Your Name
-
-                                    </label>
-
-                                    <input type="text" required name="f_name" class="form-control">
-
-                                </div>
-
-
-
-                                <div class="form-group">
-
-                                    <label for="name">
-
-                                        Your Email
-
-                                    </label>
-
-                                    <input type="email" required name="email" class="form-control">
-
-                                </div>
-
-
-
-                                <div class="form-group">
-
-                                    <label for="name">
-
-                                        Subject
-
-                                    </label>
-
-                                    <input type="text" required name="subject" class="form-control">
-
-                                </div>
-
-
-
-                                <div class="form-group">
-
-                                    <label for="name">
-
-                                        Message
-
-                                    </label>
-
-
-                                    <textarea required name="msg" class="form-control" rows="3"></textarea>
-
-
-                                </div>
-                                <div class="g-recaptcha" data-sitekey="6LcksvsbAAAAAFHny7xWmX475_Yp4GuAODAu7gKb"></div>
-
-
-
-                                <div class="form-group text-center mt-3 mb-0">
-
-
-                                    <input type="submit" name="sendmsg" class="btn btn-primary" value="Send Message">
-
-
-                                </div>
-                                <?php
-                                if (isset($_SESSION['fail'])) {
-                                ?>
-                                    <div class="alert alert-danger mt-3">
-                                        <?php echo $_SESSION['fail']; ?>
-                                    </div>
-                                <?php
-                                    unset($_SESSION['fail']);
-                                }
-                                ?>
-                                <?php
-                                if (isset($_SESSION['success'])) {
-                                ?>
-                                    <div class="alert alert-success mt-3">
-                                        <?php echo $_SESSION['success']; ?>
-                                    </div>
-                                <?php
-                                    unset($_SESSION['success']);
-                                }
-                                ?>
-
-
-
-
-
-                            </form>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-        </div>
-
-    </div>
-
+						</div>
+
+						<div class="form-group">
+							<label for="message">
+								Message
+							</label>
+							<textarea class = "form-control" name="message" cols="30" rows="5"></textarea>
+							<div class="text-danger message-error">  
+                            </div>
+						</div>
+						<div class="form-group">
+							<div class="g-recaptcha" data-sitekey="6LcInm8dAAAAAFekp-XWRFvYsYYtR_Dx6CIZqrqQ"></div>
+							<div class="text-danger captcha-error">  
+								
+							</div>
+						</div>
+
+						<div class="form-group d-grid">
+							<a href="#!" id = "submit-form" class="btn btn-secondary">
+								SEND MESSAGE
+								<span class="spinner-border spinner-border-sm ms-2"></span>
+							</a>
+						</div>
+					</form>
+					<div class="form-submit-msg" id="success-msg">
+						<div class="message-content text-center">
+							<p>
+								<img class = "mb-3" src="images/ic_success.svg" 
+								alt="success-icon">
+							</p>
+							<h4>
+								Thank You!
+							</h4>
+							<p>
+									We have received your submission.
+							</p>
+							<p>
+								Our Team will get back to you very soon
+							</p>
+						</div>
+					</div>
+					<div class="form-submit-msg" id="fail-msg">
+						<div class="message-content text-center">
+							<p>
+								<img class = "mb-3" src="images/ic_success.svg" 
+								alt="success-icon">
+							</p>
+							<h4>
+								Sorry!
+							</h4>
+							<p>
+									Something went wrong.
+							</p>
+							<p>
+								Please try again
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="contact-info text-center mb-3">
+					<div class="icon-div">
+						<i class="bi bi-envelope-fill"></i>
+					</div>
+					<div class="info-text">
+						info@algosportsgroup.com
+					</div>
+				</div>
+
+				<div class="contact-info text-center mb-3">
+					<div class="icon-div">
+						<i class="bi bi-telephone-fill"></i>
+					</div>
+					<div class="info-text">
+						+45021365989
+					</div>
+				</div>
+
+				<div class="contact-info text-center mb-3">
+					<div class="icon-div">
+						<i class="bi bi-geo-alt-fill"></i>
+					</div>
+					<div class="info-text">
+						World Trade Center 6 Bayside Road Gibraltar GX11 1AA
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
 </section>
+
 
 
 

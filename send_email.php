@@ -5,12 +5,12 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-if (!empty($_POST['g-recaptcha-response'])) {
-  $secret = '6LcksvsbAAAAAHBMG1xxL6h2kAb2gqTv2mBt-XFF';
-  $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
+if (!empty($_POST['g_recaptcha_response'])) {
+  $secret = '6LcInm8dAAAAAPxoqi_3ZsrSdqadvy6JfTWzGw_8';
+  $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g_recaptcha_response']);
   $responseData = json_decode($verifyResponse);
   if ($responseData->success) {
-    if (isset($_POST['sendmsg'])) {
+    if ($_POST['form']=='contact') {
 
 
 
@@ -33,19 +33,20 @@ if (!empty($_POST['g-recaptcha-response'])) {
       $mail->isSMTP();
 
       //Set SMTP host name                          
-      $mail->Host = "mail.blockchainalgorithms.co";
+      $mail->Host = "sxb1plmcpnl486574.prod.sxb1.secureserver.net";
       //Set this to true if SMTP host requires authentication to send email
       $mail->SMTPAuth = true;
       //Provide username and password     
-      $mail->Username = "info@blockchainalgorithms.co";
-      $mail->Password = "NK6545A1305DJ/";
+      $mail->Username = "info@algosportsgroup.com";
+      $mail->Password = "Manchester2021";
       //If SMTP requires TLS encryption then set it
       $mail->SMTPSecure = "tls";
       //Set TCP port to connect to
       $mail->Port = 587;
-      $mail->From = "info@blockchainalgorithms.co";
-      $mail->FromName = "Contact - Blockchain Algorithms";
-      $mail->addAddress("info@blockchainalgorithms.co");
+      $mail->From = "info@algosportsgroup.com";
+      $mail->FromName = "AlgoSports Group";
+      // $mail->addAddress("mudassirkhan.uoh@gmail.com");
+      $mail->addAddress("info@algosportsgroup.com");
 
 
       $mail->isHTML(true);
@@ -60,16 +61,14 @@ if (!empty($_POST['g-recaptcha-response'])) {
       $mail->Body = $mailContent;
 
       if ($mail->send()) {
-        $_SESSION['success'] = "We appreciate you reaching out to us and we'll be in touch soon at Blockchain Algorithms.";
-        // header('Location: https://blockchainalgorithms.co/index.php#contact-us');
-        // echo "email sent";
+        echo 'success';
+        // http_response_code(201);
       } else {
-        $_SESSION['fail'] = "Something went wrong.";
-        // header('Location: https://blockchainalgorithms.co/index.php#contact-us');
+          http_response_code(201);
       }
-    } else if (isset($_POST['register'])) {
+    } else if ($_POST['form']=='register') {
 
-
+      
 
       require_once "vendor/autoload.php";
 
@@ -79,30 +78,29 @@ if (!empty($_POST['g-recaptcha-response'])) {
       $phone = $_POST['phone'];
 
 
-
-
       $mail = new PHPMailer(true);
 
       //Enable SMTP debugging.
-      //   $mail->SMTPDebug = 3;                     
+        // $mail->SMTPDebug = 3;                     
       //Set PHPMailer to use SMTP.
 
       $mail->isSMTP();
 
       //Set SMTP host name                          
-      $mail->Host = "mail.blockchainalgorithms.co";
+      $mail->Host = "sxb1plmcpnl486574.prod.sxb1.secureserver.net";
       //Set this to true if SMTP host requires authentication to send email
       $mail->SMTPAuth = true;
       //Provide username and password     
-      $mail->Username = "info@blockchainalgorithms.co";
-      $mail->Password = "NK6545A1305DJ/";
+      $mail->Username = "info@algosportsgroup.com";
+      $mail->Password = "Manchester2021";
       //If SMTP requires TLS encryption then set it
       $mail->SMTPSecure = "tls";
       //Set TCP port to connect to
       $mail->Port = 587;
-      $mail->From = "info@blockchainalgorithms.co";
-      $mail->FromName = "Blockchain Algorithms";
-      $mail->addAddress("info@blockchainalgorithms.co");
+      $mail->From = "info@algosportsgroup.com";
+      $mail->FromName = "AlgoSports Group";
+      $mail->addAddress("info@algosportsgroup.com");
+      // $mail->addAddress("mudassirkhan.uoh@gmail.com");
 
 
       $mail->isHTML(true);
@@ -118,15 +116,15 @@ if (!empty($_POST['g-recaptcha-response'])) {
       $mail->Body = $mailContent;
 
       if ($mail->send()) {
-        $_SESSION['success'] = "We appreciate you reaching out to us and we'll be in touch soon at Blockchain Algorithms.";
-        // header('Location: https://blockchainalgorithms.co/index.php#contact-us');
-        // echo "email sent";
+        echo 'success';
+        // http_response_code(201);
       } else {
-        $_SESSION['fail'] = "Something went wrong.";
-        // header('Location: https://blockchainalgorithms.co/index.php#contact-us');
+          http_response_code(201);
       }
     }
   }
 } else {
-  $_SESSION['fail'] = "Please Fill Captcha";
+  echo 'captcha-error';
 }
+
+

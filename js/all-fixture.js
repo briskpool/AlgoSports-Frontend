@@ -4,7 +4,7 @@ const all = {
     "url": "https://api-football-v1.p.rapidapi.com/v3/fixtures?league=39&season=2021",
     "method": "GET",
     "headers": {
-        "x-rapidapi-key": "2c254db3famsh3f8ef7b2d38b11ep1c40b9jsnb6f9f28d0bb3",
+        "x-rapidapi-key": "5a064d629amsh0e00769af305bdap180755jsnb03e3a7f19f0",
         "x-rapidapi-host": "api-football-v1.p.rapidapi.com"
     }
 };
