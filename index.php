@@ -278,7 +278,7 @@
 					</h1>
 
 					<p>
-					AlgoSports has developed its own trading algorithm (“Algo442”),
+					AlgoSports has developed its own trading algorithm (“Algo66”),
 					 based upon artificial intelligence (“AI”) which constantly refines 
 					 and innovates the underlying assumptions and strategy. The trading 
 					 system continuously evolves, and the self-learning algorithm develops 

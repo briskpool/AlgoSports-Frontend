@@ -28,7 +28,7 @@
                         AlgoSports Group (UK) limited - Privacy Policy
                     </h1>
 					<p>
-					<span>AlgoSports Group</span> has developed its own trading algorithm (“Algo442”),
+					<span>AlgoSports Group</span> has developed its own trading algorithm (“Algo66”),
 					 based upon artificial intelligence (“AI”) which constantly refines 
 					 and innovates the underlying assumptions and strategy. The trading 
 					 system continuously evolves, and the self-learning algorithm develops 
