@@ -21,7 +21,7 @@
 					Right time to open your account 
 				</p>
 				<a href="register.php" class="btn btn-primary me-md-3">
-					Rigester Now
+					Register Today
 				</a>
 				<a href="#" class="google-ply-btn">
 					<img src="images/googlePlay.png" alt="google-ply-btn">
@@ -377,7 +377,7 @@
 				<div class="card h-100">
 					<div class="card-body">
 						<h2 class="counter" data-counter-time="2000" data-counter-delay="10">
-							<span>812500</span>
+							<span>112,000</span>
 						</h2>
 						<p class="mb-0">
 							REGISTERED USERS
@@ -390,10 +390,10 @@
 				<div class="card h-100">
 					<div class="card-body">
 						<h2 class="counter" data-counter-time="2000" data-counter-delay="10">	
-						<span>12</span>
+						<span>3</span>
 						</h2>
 						<p class="mb-0">
-							COUNTRIES SUPPORTED
+							COUNTRIES
 						</p>
 					</div>
 				</div>
@@ -403,7 +403,7 @@
 				<div class="card h-100">
 					<div class="card-body">
 						<h2 >
-							£ <span class="counter" data-counter-time="2000" data-counter-delay="10">2.1</span>M
+							£ <span class="counter" data-counter-time="2000" data-counter-delay="10">1.4</span>M
 						</h2>
 						<p class="mb-0">
 							WITHDRAWN EACH MONTH

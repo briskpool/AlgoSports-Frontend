@@ -136,6 +136,9 @@ img {
 .nav-top .navbar .d-flex .btn.btn-primary {
     color: var(--secondary-color);
 }
+.nav-top .navbar .d-flex .btn.btn-primary:hover {
+    color: #fff;
+}
 
 .side-mobile-nav {
     background: #ffffff;
@@ -595,8 +598,8 @@ p.date, p.vs, p.league {
 
 .footer-main {
     background-color: var(--secondary-color);
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .footer-main ul li a {
@@ -633,14 +636,14 @@ p.date, p.vs, p.league {
 }
 @-webkit-keyframes icon-zoom {
     50% {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 }
 @keyframes icon-zoom {
     50% {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 }
 
@@ -786,10 +789,66 @@ p.date, p.vs, p.league {
 }
 
 .copyright p {
-    font-size: 14px;
+    font-size: 12px;
    color: var(--copy-right-color);
    line-height: 25px;
    font-family: 'Glegoo', serif;
+}
+
+/* scroll up btn */
+.back-to-top {
+    position: fixed;
+    right: 1.5%;
+    bottom: -7.5%;
+    height: 15px;
+    cursor: pointer;
+    width: 40px;
+    padding: 3px 5px;
+    font-size: 10px;
+    font-weight: 700;
+    color: transparent;
+    text-align: center;
+    z-index: 3;
+    visibility: hidden;
+    outline: 0!important;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    background-color: var(--secondary-color);
+}
+
+.back-to-top::before, .back-to-top::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top: 0;
+}
+
+.back-to-top::before {
+    top: -20px;
+    z-index: 4;
+    border-bottom: 20px solid var(--secondary-color);
+}
+
+.back-to-top::after {
+    bottom: 0;
+    z-index: 5;
+    border-bottom: 20px solid var(--primary-color);
+}
+
+.back-to-top.show-back-to-top {
+    display: block;
+    bottom: 1.25%;
+    visibility: visible;
+}
+
+.back-to-top:hover, .back-to-top:focus {
+    opacity: 1;
+    text-decoration: none;
+    height: 40px;
+    color: #fff;
 }
 
 @media (max-width: 767px) {

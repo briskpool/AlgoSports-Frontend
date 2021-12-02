@@ -25,7 +25,7 @@
                 </ul>
                 <div class="d-flex">
                     <a href="http://accounts.algosportsgroup.com/login" class="btn btn-primary mx-2 px-4">
-                        <img class = "me-1" src="images/person.svg" alt="person-icon"> Login
+                    <i class="bi bi-person-fill me-1"></i>Login
                     </a>
                     <a href="register.php" class="btn btn-secondary mx-2 px-4">
                         REGISTER
@@ -58,8 +58,8 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="registration.php" class="nav-link btn-primary">
-                        Login
+                <a href="http://accounts.algosportsgroup.com/login" class="btn-primary nav-link">
+                    <i class="bi bi-person-fill me-1"></i>Login
                     </a>
                 </li>
 

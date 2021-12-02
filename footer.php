@@ -4,13 +4,13 @@
         <div class="row g-3">
 
             <div class="col-md-6">
-                <ul class="nav">
+                <ul class="nav mt-1">
                     <li class="nav-item">
                         <a href="terms.php" class="nav-link">
                             Terms Of Use
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ">
                         <a href="privacy.php" class="nav-link">
                             Privacy Statement
                         </a>
@@ -37,7 +37,7 @@
     </div>
 </section>
 
-<section class="copyright py-3 py-md-5">
+<section class="copyright py-3">
     <div class="container py-3 text-center">
         <div class="row">
             <div class="col">
@@ -86,6 +86,7 @@
       </div>
     </div>
   </div>
+  <div class="back-to-top">Top</div>
 
 
   <script src="js/cookies.js"></script>
@@ -275,6 +276,18 @@ jQuery(document).ready(function($) {
         'time': 2000,
         'delay': 10
     });
+});
+
+// Scroll up btn
+jQuery(window).on("scroll", function () {
+	if ($(this).scrollTop() > 800) {
+		$(".back-to-top").addClass("show-back-to-top");
+	} else {
+		$(".back-to-top").removeClass("show-back-to-top");
+	}
+});
+$(".back-to-top").on("click", function () {
+	$("html, body").animate({ scrollTop: "0" }, 500);
 });
 
 </script>
