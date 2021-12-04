@@ -237,9 +237,7 @@
 						</div>
 						<h1>Technology</h1>
 						<p>
-							AlgoSports has developed its own trading algorithm code named Algor
-							 442, based upon artificial intelligence (“AI”) which constantly 
-							 refines and innovates the underlying assumptions and strategy.
+						AlgoSports Group has developed its own trading algorithm code named Algo66, based upon artificial intelligence (“AI”) which constantly refines and innovates the underlying assumptions and strategy.
 						</p>
 					</div>
 				</div>
@@ -253,10 +251,7 @@
 						</div>
 						<h1>Integrity</h1>
 						<p>
-							Our team remains deeply embedded in both the sports and financial markets 
-							meaning they are able to provide our clients with the peace of mind that 
-							all the staff at Blockchain Algorithms are experienced experts in their 
-							fields
+						Our team remains deeply embedded in both the sports and financial markets meaning they are able to provide our clients with the peace of mind that all the staff at AlgoSports Group are experienced experts in their fields.
 						</p>
 					</div>
 				</div>
@@ -278,13 +273,7 @@
 					</h1>
 
 					<p>
-					AlgoSports has developed its own trading algorithm (“Algo66”),
-					 based upon artificial intelligence (“AI”) which constantly refines 
-					 and innovates the underlying assumptions and strategy. The trading 
-					 system continuously evolves, and the self-learning algorithm develops 
-					 with each trade. The system has been back-tested on 5 years of historical 
-					 data and has been privately traded for 2 years successfully at Blockchain 
-					 Algorithms.
+					AlgoSports has developed its own trading algorithm (“Algo66”), based upon artificial intelligence (“AI”) which constantly refines and innovates the underlying assumptions and strategy. The trading system continuously evolves, and the self-learning algorithm develops with each trade. The system has been back-tested on 4 years of historical data and has been privately traded for 2 years successfully at AlgoSports Group.
 					</p>
 
 				</div>

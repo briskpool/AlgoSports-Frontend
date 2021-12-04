@@ -26,12 +26,7 @@
 				<div class="about-content">
 
 					<p>
-					<span>AlgoSports Group</span> has developed its own trading algorithm (“Algo66”),
-					 based upon artificial intelligence (“AI”) which constantly refines 
-					 and innovates the underlying assumptions and strategy. The trading 
-					 system continuously evolves, and the self-learning algorithm develops 
-					 with each trade. The system has been back-tested on 5 years of historical 
-					 data and has been privately traded for 2 years successfully at AlgoSports Group.
+					<span>AlgoSports Group</span> has developed its own trading algorithm code named Algo66, based upon artificial intelligence (“AI”) which constantly refines and innovates the underlying assumptions and strategy.
 					</p>
 
                     <p>
