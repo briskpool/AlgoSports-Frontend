@@ -25,7 +25,7 @@
 			<div class="col-md-12">
 				<div class="about-content inner-page-content">
                     <h1 class = "mt-3 mb-2">
-                        AlgoSports Group (UK) limited - Privacy Policy
+                        AlgoSports Group (UK) Limited - Privacy Policy
                     </h1>
 					<p>
 					<span>AlgoSports Group</span> has developed its own trading algorithm (“Algo66”),

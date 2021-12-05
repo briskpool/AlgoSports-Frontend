@@ -50,7 +50,7 @@
 								<span>1st</span> step
 							</h2>
 							<p>
-								Open Your Account And Deposit £1,000 Minimum 
+							Open Your Account And Deposit A Minimum Of £1,000 
 							</p>
 						</div>
 						<div class="col-md-4 mb-3 mb-md-0">
