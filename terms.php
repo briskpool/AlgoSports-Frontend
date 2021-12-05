@@ -158,7 +158,7 @@
                     <p>
                     Certain names, graphics, logos, icons, designs,
                     words, titles or phrases on this website may constitute trade names or trademarks of 
-                    Blockchain Algorithms (UK) Limited. The display of any trademark on this website does not 
+                    AlgoSports Group (UK) Limited. The display of any trademark on this website does not 
                     imply that a license of any kind to use the trademark has been granted. Unless otherwise
                     specified, your use of this website does not give you permission to copy, reproduce, 
                     redistribute or republish, in any form, any information found in the pages of this website.

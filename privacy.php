@@ -33,8 +33,7 @@
 					 and innovates the underlying assumptions and strategy. The trading 
 					 system continuously evolves, and the self-learning algorithm develops 
 					 with each trade. The system has been back-tested on 5 years of historical 
-					 data and has been privately traded for 2 years successfully at Blockchain 
-					 Algorithms.
+					 data and has been privately traded for 2 years successfully at AlgoSports Group.
 					</p>
 
                     <h1 class = "mt-3 mb-2">NFORMATION COLLECTED </h1>

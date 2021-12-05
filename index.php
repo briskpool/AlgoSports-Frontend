@@ -18,7 +18,7 @@
 					</span>
 				</h1>
 				<p class = "mb-5">
-					Right time to open your account 
+					Consistent Dividend Payments Every Month
 				</p>
 				<a href="register.php" class="btn btn-primary me-md-3">
 					Register Today
@@ -47,28 +47,28 @@
 						<div class="col-md-4 mb-3 mb-md-0">
 							<h2>
 								<div class="num-mark">1</div>
-								1<span>st</span> step
+								<span>1st</span> step
 							</h2>
 							<p>
-								How this step will guide you to use the platform.
+								Open Your Account And Deposit £1,000 Minimum 
 							</p>
 						</div>
 						<div class="col-md-4 mb-3 mb-md-0">
 							<h2>
 								<div class="num-mark">2</div>
-								2<span>nd</span> step
+								<span>2nd</span> step
 							</h2>
 							<p>
-								How this step will guide you to use the platform.
+								Let Us Manage Your Sportfolio
 							</p>
 						</div>
 						<div class="col-md-4 mb-3 mb-md-0">
 							<h2>
 								<div class="num-mark">3</div>
-								3<span>rd</span> step
+								<span>3rd</span> step
 							</h2>
 							<p>
-								How this step will guide you to use the platform.
+								Get Consistent Dividend Payments Every Month
 							</p>
 						</div>
 					</div>
