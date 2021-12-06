@@ -114,6 +114,7 @@ img {
     font-family: 'Glegoo', serif;
     font-weight: bold;
     font-size: 18px;
+    border-bottom: 1px solid transparent;
 }
 
 .nav-top ul.navbar-nav li a.active, 
