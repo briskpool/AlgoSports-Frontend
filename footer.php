@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row g-3">
 
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <ul class="nav mt-1">
                     <li class="nav-item">
                         <a href="terms.php" class="nav-link">
@@ -17,8 +17,15 @@
                     </li>
                 </ul>
             </div>
+            <div class="col-md-4 py-2">
+               <!-- TrustBox widget - Micro Review Count -->
+                    <div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="6175441ad58e9011b823c3d7" data-style-height="24px" data-style-width="100%" data-theme="dark" data-stars="1,2,3,4,5" data-no-reviews="hide" data-scroll-to-list="true" data-allow-robots="true">
+                    <a href="https://www.trustpilot.com/review/algosportsgroup.com" target="_blank" rel="noopener">Trustpilot</a>
+                    </div>
+                <!-- End TrustBox widget -->
+            </div>
 
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
                         <a href="https://twitter.com/AlgoSportsGroup" target="_blank" class="nav-link social-icon">
@@ -76,6 +83,9 @@
 <script src='https://www.google.com/recaptcha/api.js' async defer></script>
 <script src='js/matches.js'></script>
 <script src='js/all-fixture.js'></script>
+<!-- TrustBox script -->
+<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+<!-- End TrustBox script -->
 <!-- Cookies Alert Start Here -->
 <div class="wrapper-hidden" id="cookies-alert">
     <div class="content">
