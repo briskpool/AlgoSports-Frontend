@@ -23,9 +23,9 @@
 				<a href="register.php" class="btn btn-primary me-md-3">
 					Register Today
 				</a>
-				<a href="#" class="google-ply-btn">
+				<!-- <a href="#" class="google-ply-btn">
 					<img src="images/googlePlay.png" alt="google-ply-btn">
-				</a>
+				</a> -->
 			</div>
 			<div class="col-md-5 order-first order-md-last mb-3 mb-md-0 text-center">
 				<img class = "banner-img" src="images/banner-main.png" alt="banner-img">
