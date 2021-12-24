@@ -13,6 +13,11 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
+                        <a class="nav-link <?php if($currentPage =='integrity'){echo 'active';}?>" href="integrity.php">
+                            Integrity
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link <?php if($currentPage =='about'){echo 'active';}?>" href="about.php">
                             About Us
                         </a>
@@ -50,6 +55,11 @@
                 <li class="nav-item">
                     <a href="index.php" class="nav-link <?php if($currentPage =='home'){echo 'active';}?>">
                         Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="integrity.php" class="nav-link <?php if($currentPage =='integrity'){echo 'active';}?>">
+                        Integrity
                     </a>
                 </li>
                 <li class="nav-item">

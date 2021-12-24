@@ -348,7 +348,6 @@ p.date, p.vs, p.league {
 
 .how-it-work h2 {
     font-size: 24px;
-    padding-left: 40px;
     position: relative;
     margin-bottom: 15px;
 }
@@ -359,9 +358,7 @@ p.date, p.vs, p.league {
     color: var(--secondary-color);
     font-weight: bold;
     font-size: 24px;
-    position: absolute;
-    top: 0;
-    left: 0;
+   
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -649,6 +646,7 @@ p.date, p.vs, p.league {
 }
 
 
+
 /*==== About Page ====*/
 
 .sec-banner.about-page {
@@ -684,6 +682,23 @@ p.date, p.vs, p.league {
     line-height: 30px;
     margin-bottom: 30px;
 }
+
+/*=== Integrity Page ===*/
+.about .card .ic-div{
+    background: var(--primary-color);
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+    border-radius: var(--full-round);
+    text-align: center;
+}
+.about .card p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
 
 /*==== Register Page ====*/
 

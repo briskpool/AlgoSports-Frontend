@@ -47,7 +47,7 @@
 						<div class="col-md-4 mb-3 mb-md-0">
 							<h2>
 								<div class="num-mark">1</div>
-								<span>1st</span> step
+								
 							</h2>
 							<p>
 							Open Your Account And Deposit A Minimum Of £1,000 
@@ -56,7 +56,7 @@
 						<div class="col-md-4 mb-3 mb-md-0">
 							<h2>
 								<div class="num-mark">2</div>
-								<span>2nd</span> step
+								
 							</h2>
 							<p>
 								Let Us Manage Your Sportfolio
@@ -65,7 +65,7 @@
 						<div class="col-md-4 mb-3 mb-md-0">
 							<h2>
 								<div class="num-mark">3</div>
-								<span>3rd</span> step
+								
 							</h2>
 							<p>
 								Get Consistent Dividend Payments Every Month
