@@ -543,7 +543,7 @@
 						<i class="bi bi-telephone-fill"></i>
 					</div>
 					<div class="info-text">
-						+45021365989
+						0330 001 5369
 					</div>
 				</div>
 
