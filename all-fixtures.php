@@ -1,5 +1,7 @@
 <?php 
-	$currentPage = 'privacy'; // current page name....
+	$currentPage = 'All Fixtures'; // current page name....
+	$pageTitle = 'All Fixtures';
+	$metaDescription="Watch all matches fixtures";
 	include 'header.php'; ?>
 
 <body>

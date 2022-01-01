@@ -1,5 +1,7 @@
 <?php 
 	$currentPage = 'register'; // current page name....
+    $pageTitle = 'Register';
+    $metaDescription ="A New League in Sports Trading"
 	include 'header.php'; ?>
 
 <body>

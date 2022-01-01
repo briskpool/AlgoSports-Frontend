@@ -1,6 +1,10 @@
 <?php 
-	$currentPage = 'home'; // current page name....
+	$currentPage = 'AlgoSports Group'; // current page name....
+	$pageTitle = 'AlgoSports Group';
+	$metaDescription = "To meet today's challenges, we have created a unique fund management system";
 	include 'header.php'; ?>
+
+
 
 <body>
 

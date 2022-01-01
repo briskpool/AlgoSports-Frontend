@@ -12,17 +12,22 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
+                    <li class="nav-item px-2">
+                        <a href="gender-pay-gap.php" class="nav-link <?php if($currentPage =='Gender Pay Gap'){echo 'active';}?>">
+                            Gender Pay Gap
+                        </a>
+                    </li>
+                    <li class="nav-item px-2">
                         <a class="nav-link <?php if($currentPage =='integrity'){echo 'active';}?>" href="integrity.php">
                             Integrity
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-2">
                         <a class="nav-link <?php if($currentPage =='about'){echo 'active';}?>" href="about.php">
                             About Us
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-2">
                         <a href = "index.php#contact-us" class="nav-link">
                             Contact Us
                         </a>
@@ -30,9 +35,9 @@
                 </ul>
                 <div class="d-flex">
                         <!-- TrustBox widget - Micro Review Count -->
-                        <div class="trustpilot-widget py-2" data-locale="en-US" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="6175441ad58e9011b823c3d7" data-style-height="24px" data-style-width="100%" data-theme="light" data-stars="1,2,3,4,5" data-no-reviews="hide" data-scroll-to-list="true" data-allow-robots="true">
+                        <!-- <div class="trustpilot-widget py-2" data-locale="en-US" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="6175441ad58e9011b823c3d7" data-style-height="24px" data-style-width="100%" data-theme="light" data-stars="1,2,3,4,5" data-no-reviews="hide" data-scroll-to-list="true" data-allow-robots="true">
                         <a href="https://www.trustpilot.com/review/algosportsgroup.com" target="_blank" rel="noopener">Trustpilot</a>
-                        </div>
+                        </div> -->
                         <!-- End TrustBox widget -->
 
                     <a href="https://accounts.algosportsgroup.com/login" class="btn btn-primary mx-2 px-4">
@@ -55,6 +60,11 @@
                 <li class="nav-item">
                     <a href="index.php" class="nav-link <?php if($currentPage =='home'){echo 'active';}?>">
                         Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="gender-pay-gap.php" class="nav-link <?php if($currentPage =='Gender Pay Gap'){echo 'active';}?>">
+                        Gender Pay Gap
                     </a>
                 </li>
                 <li class="nav-item">

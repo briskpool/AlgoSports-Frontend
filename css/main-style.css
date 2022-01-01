@@ -93,8 +93,8 @@ img {
 }
 
 .page-sec {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .page-sec .card {
@@ -113,7 +113,7 @@ img {
     color: var(--text-color-a) !important;
     font-family: 'Glegoo', serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     border-bottom: 1px solid transparent;
 }
 
@@ -416,11 +416,12 @@ p.date, p.vs, p.league {
     color: var(--primary-color);
 }
 
-.about p {
-    font-size: 20px;
+.about p,li,table {
+    font-size: 16px;
     font-family: 'Glegoo', serif;
-    line-height: 36px;
+    line-height: 30px;
     color: var(--text-color-a);
+    font-weight: bold;
 }
 
 .algo-sec {

@@ -1,5 +1,7 @@
 <?php 
 	$currentPage = 'about'; // current page name....
+	$pageTitle = 'About AlgoSports Group';
+	$metaDescription = "AlgoSports Group operates an uncorrelated investment strategy, independent of prevailing economic conditions; in other words it is recession-proof and offers returns independent of any other mainstream investment product.";
 	include 'header.php'; ?>
 
 <body>

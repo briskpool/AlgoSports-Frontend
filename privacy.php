@@ -1,5 +1,7 @@
 <?php 
 	$currentPage = 'privacy'; // current page name....
+    $pageTitle = 'Privacy Statement';
+    $metaDescription ="We will collect, store personal information and cookie based electronic data about you and/or your visits to and use of this website;"
 	include 'header.php'; ?>
 
 <body>
