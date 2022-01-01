@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://www.algosportsgroup.com/</loc>
+  <lastmod>2022-01-01T21:50:22+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.algosportsgroup.com/index.php</loc>
+  <lastmod>2022-01-01T21:50:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.algosportsgroup.com/gender-pay-gap.php</loc>
+  <lastmod>2022-01-01T21:50:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.algosportsgroup.com/integrity.php</loc>
+  <lastmod>2022-01-01T21:50:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.algosportsgroup.com/about.php</loc>
+  <lastmod>2022-01-01T21:50:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.algosportsgroup.com/register.php</loc>
+  <lastmod>2022-01-01T21:50:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.algosportsgroup.com/all-fixtures.php</loc>
+  <lastmod>2022-01-01T21:50:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
