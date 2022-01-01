@@ -130,7 +130,7 @@
 
 		<div class="row">
 			<div class="col-md-12">
-				<div class="about-content">
+				<div class="about-content pb-4">
 					<h1 class = "mt-3 mb-2">What are we doing to close the gap?</h1>
 						<p>
 							To help close the gap we have a number of actions in place:
@@ -146,12 +146,7 @@
 						<li>As part of our People Strategy we are in the process of creating programmes to further support our working parents.</li>
 						<li>We keep up to date with market trends to ensure our benefits and policies continue to be attractive to female staff.</li>
 					</ul>
-					<h1 class = "mt-3 mb-2">Statement</h1>
-					<p class="pb-4"> 
-						I confirm that the information provided is accurate. <br/>
-						Paul Elworthy, Head of Human Resources<br/>
-						Natalie Smith, Company Director
-					</p>
+
 				</div>
 			</div>
 		</div>
