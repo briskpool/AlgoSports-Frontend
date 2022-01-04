@@ -547,7 +547,7 @@
 						<i class="bi bi-telephone-fill"></i>
 					</div>
 					<div class="info-text">
-						0330 001 5369
+						0800 915 3215
 					</div>
 				</div>
 
