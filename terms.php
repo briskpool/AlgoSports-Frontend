@@ -1,7 +1,7 @@
 <?php 
 	$currentPage = 'termandcondition'; // current page name....
     $pageTitle = 'Terms and Conditions';
-    $metaDescription ="This website is owned and operated by AlgoSports Group (UK) Limited (hereinafter “Us” or “We”)."
+    $metaDescription ="This website is owned and operated by AlgoSports Group (UK) Limited (hereinafter “Us” or “We”).";
 	include 'header.php'; ?>
 
 <body>

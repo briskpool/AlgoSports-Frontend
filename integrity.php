@@ -135,6 +135,43 @@
 	</div>
 </section>
 
+<section class="page-sec about">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12">
+				<div class="about-content">
+					<div class="row mx-0">
+						<div class="col-md-4 mb-3">
+							<img src="images/report.png" alt="icon-trade" class="h-100">	
+						</div>
+						<div class="col-md-8 mb-3">
+							<div class="card rounded-0 border-0 h-100">
+								<div class="card-body p-5">
+									<h1>Suspicious Betting Trends in Global Football Report 2021</h1>
+									<p>
+									The 2021 edition of Suspicious Betting Trends in Global Football is our fourth annual review of suspicious betting activity associated with the world’s most popular sport. This year’s report covers 61,296 football matches played across the globe in 2020.</p>
+
+									<p>The report combines AlgoSports Integrity Services’ unique real-time and retrospective analysis of the biggest betting markets in global football matches (Asian Handicap, 1×2 and Total Goals), together with input from Stats Perform Integrity, in order to provide a multi-dimensional and inside-the-market view of each match.</p>
+
+									<p>The result is an in-depth analysis that paints a global picture of activity indicative of suspected match-fixing in world football.
+									</p>
+									<div class="col-12 mt-4 mt-md-5">
+										<a href="images/Global-Report-2022.pdf" class="btn btn-secondary">
+											DOWNLOAD THE REPORT!
+										</a>
+			</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
 
 
 
