@@ -157,7 +157,7 @@
 									<p>The result is an in-depth analysis that paints a global picture of activity indicative of suspected match-fixing in world football.
 									</p>
 									<div class="col-12 mt-4 mt-md-5">
-										<a href="images/Global-Report-2022.pdf" class="btn btn-secondary">
+										<a href="images/Global-Report-2022.pdf" target="_blank" class="btn btn-secondary">
 											DOWNLOAD THE REPORT!
 										</a>
 			</div>
