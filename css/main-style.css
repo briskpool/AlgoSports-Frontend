@@ -96,6 +96,11 @@ img {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.page-sec p {
+    font-family: 'Glegoo', serif;
+    font-size: 20px;
+    color: white;
+}
 
 .page-sec .card {
     border-radius: var(--radius-lg);
@@ -490,7 +495,18 @@ p.date, p.vs, p.league {
     background-position: center;
     background-color: var(--secondary-color);
 }
-
+.charity-sec-banner {
+    background: url('../images/sec-bg-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--secondary-color);
+}
+.charity-sec-banner h1 {
+    color: var(--text-color-b);
+    font-size: 45px;
+    margin-bottom: 30px;
+}
 .sec-banner h1 {
     color: var(--text-color-b);
     font-size: 45px;

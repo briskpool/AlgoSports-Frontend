@@ -28,13 +28,18 @@
             <div class="col-md-4">
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                        <a href="https://www.youtube.com/watch?v=gIFNu4qPPDU&feature=youtu.be" target="_blank" class="nav-link social-icon">
-                            <i class="bi bi-youtube"></i>
+                        <a href="https://www.linkedin.com/company/algosports-group" target="_blank" class="nav-link social-icon">
+                            <i class="bi bi-linkedin"></i>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="https://twitter.com/AlgoSportsGroup" target="_blank" class="nav-link social-icon">
                             <i class="bi bi-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.youtube.com/watch?v=gIFNu4qPPDU&feature=youtu.be" target="_blank" class="nav-link social-icon">
+                            <i class="bi bi-youtube"></i>
                         </a>
                     </li>
                     <li class="nav-item">
