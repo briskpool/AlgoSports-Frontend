@@ -18,11 +18,6 @@
                         </a>
                     </li>
                     <li class="nav-item px-2">
-                        <a class="nav-link <?php if($currentPage =='integrity'){echo 'active';}?>" href="integrity.php">
-                            Integrity
-                        </a>
-                    </li>
-                    <li class="nav-item px-2">
                         <a class="nav-link <?php if($currentPage =='charity'){echo 'active';}?>" href="charity.php">
                             Charity
                         </a>
@@ -70,11 +65,6 @@
                 <li class="nav-item">
                     <a href="gender-pay-gap.php" class="nav-link <?php if($currentPage =='Gender Pay Gap'){echo 'active';}?>">
                         Gender Pay Gap
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="integrity.php" class="nav-link <?php if($currentPage =='integrity'){echo 'active';}?>">
-                        Integrity
                     </a>
                 </li>
                 <li class="nav-item">
