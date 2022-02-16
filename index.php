@@ -39,6 +39,29 @@
 </section>
 
 
+<section class="py-3 py-md-3 bg-white">
+
+    <div class="container py-3 py-md-4">
+
+        <div class="sec-top-pra text-center fadeIn wow animated delay-1 animated" style="visibility: visible; animation-name: fadeIn;">
+            <h2>Download Our Mobile App</h2>
+            <p>
+                AlgoSports Group works on all major platforms, enabling seamless experience <br>across your browser, mobile device, tablet, and computer.
+            </p>
+
+            <p class="py-3">
+                <a href="https://play.google.com/store/apps/details?id=com.algo.algosportsgroup" target="_blank"><img src="images/icon_GooglePlay.svg" alt=""></a>
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+</section>
+
+
 <section class="page-sec px-3">
 	<div class="container how-it-work">
 		<div class="row">
