@@ -126,6 +126,11 @@
 				<div class="matche-navbar p-3 mb-2">
 					<ul class="nav" id="tabs">
 						<li class="nav-item current">
+							<a href="#upcoming_matches" class="nav-link">
+								Upcoming Matches
+							</a>
+						</li>
+						<li class="nav-item">
 							<a href="#tab-standings" class="nav-link">
 								Standings
 							</a>
@@ -133,11 +138,6 @@
 						<li class="nav-item">
 							<a href="#tab-fixtures" class="nav-link">
 								Fixtures
-							</a>
-						</li>
-						<li class="nav-item">
-							<a href="#upcoming_matches" class="nav-link">
-								Upcoming Matches
 							</a>
 						</li>
 						<!-- <li class="nav-item">
@@ -156,7 +156,7 @@
 			
 			<div class="col-12">
 				<div class="matche-content p-4 p-lg-5" id="content">
-					<div id="tab-standings" class = "current content-wrapper animated">
+					<div id="tab-standings" class = "content-wrapper animated">
 						<div class="container">
 							<div id="wg-api-football-standings"
 								data-host="api-football-v1.p.rapidapi.com"
@@ -182,7 +182,7 @@
 											
 						</div>
 					</div>
-					<div id = "upcoming_matches" class = "content-wrapper animated">
+					<div id = "upcoming_matches" class = "current content-wrapper animated">
 						
 						<div class="swiper px-0 " id="mySwiper">
 							<div class="swiper-wrapper py-5">
@@ -200,7 +200,7 @@
 
 					</div>
 
-					<div id="rugby" class = "content-wrapper animated">
+					<!-- <div id="rugby" class = "content-wrapper animated">
 						<p class = "text-light">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam omnis cum 
 							iure eos deleniti, explicabo fuga nihil minima corporis reiciendis at dolorum 
@@ -220,7 +220,7 @@
 							iure eos deleniti, explicabo fuga nihil minima corporis reiciendis at dolorum 
 							perspiciatis ratione eveniet, veritatis enim, nobis minus numquam.
 						</p>
-					</div>
+					</div> -->
 
 				</div>
 				
