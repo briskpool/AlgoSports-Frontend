@@ -7,6 +7,16 @@
 
 
 <body>
+	<section>
+		<div class="row">
+		<div class="alert text-center fw-bold text-light" style="font-size:20px; background-color:#0C2C3B;" role="alert">
+		AlgoSports F1 <img src="images/f1_logo.svg" style="width:60px;"> Fund <a href="mailto:info@algosportsgroup.com?subject=AlgoSports F1 Fund" class="btn btn-primary mx-2 px-2 py-2">
+                        Apply Today
+                    </a>
+		</div>
+		
+			
+	</section>
 
 <?php include 'navbar.php'; ?>
 
