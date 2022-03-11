@@ -51,24 +51,27 @@
 <section class="py-3 py-md-3 bg-white">
 
     <div class="container py-3 py-md-4">
+		<div class="row justify-content-center">
+				<div class="sec-top-pra text-center fadeIn wow animated delay-1 animated" style="visibility: visible; animation-name: fadeIn;">
+					<h2>Download Our Mobile App</h2>
+					<p>AlgoSports Group works on all major platforms, enabling seamless experience <br>across your browser, mobile device, tablet, and computer.</p>
 
-        <div class="sec-top-pra text-center fadeIn wow animated delay-1 animated" style="visibility: visible; animation-name: fadeIn;">
-            <h2>Download Our Mobile App</h2>
-            <p>
-                AlgoSports Group works on all major platforms, enabling seamless experience <br>across your browser, mobile device, tablet, and computer.
-            </p>
+					<p class="py-3">
+						<a href="https://play.google.com/store/apps/details?id=com.algo.algosportsgroup" target="_blank"><img src="images/icon_GooglePlay.svg" alt=""></a>
+					</p>
 
-            <p class="py-3">
-                <a href="https://play.google.com/store/apps/details?id=com.algo.algosportsgroup" target="_blank"><img src="images/icon_GooglePlay.svg" alt=""></a>
-            </p>
-
-        </div>
-
-    </div>
-
-
+				</div>
+				<div class="col-9">
+					<div class="ratio ratio-16x9 border">
+						<iframe src="https://www.youtube.com/embed/gIFNu4qPPDU" title="YouTube video" allowfullscreen></iframe>
+					</div>
+				</div>
+		</div>
+		
+	</div>
 
 </section>
+
 
 
 <section class="page-sec px-3">
@@ -113,6 +116,7 @@
 		</div>
 	</div>
 </section>
+
 
 <section class="page-sec up-coming-matches pt-2">
 	<div class="container">
@@ -402,7 +406,7 @@
 				<div class="card h-100">
 					<div class="card-body">
 						<h2 class="counter" data-counter-time="2000" data-counter-delay="10">
-							<span>112,000</span>
+							<span>119,000</span>
 						</h2>
 						<p class="mb-0">
 							REGISTERED USERS
@@ -428,10 +432,10 @@
 				<div class="card h-100">
 					<div class="card-body">
 						<h2 >
-							£ <span class="counter" data-counter-time="2000" data-counter-delay="10">1.4</span>M
+							£ <span class="counter" data-counter-time="2000" data-counter-delay="10">1.1</span>M
 						</h2>
 						<p class="mb-0">
-							WITHDRAWN EACH MONTH
+							WITHDRAWN EACH MONTHß
 						</p>
 					</div>
 				</div>
