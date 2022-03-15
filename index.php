@@ -9,9 +9,10 @@
 <body>
 	<section>
 		<div class="row">
-		<div class="alert text-center fw-bold text-light" style="font-size:24px; background-color:#0C2C3B;" role="alert">
+		<div class="alert text-center fw-bold text-light" style="font-size:14px; background-color:#0C2C3B;" role="alert">
 			<img src="images/f1_logo.svg" style="width:80px;"> Fund 
-			<a href="mailto:info@algosportsgroup.com?subject=AlgoSports F1 Fund" class="btn btn-primary mx-2 px-2 py-2">Apply Today</a>
+			<a href="mailto:info@algosportsgroup.com?subject=AlgoSports F1 Fund" class="btn btn-primary mx-2 px-2 py-1">Apply Today</a>
+			<span style="font-size: 14px; font-weight: 500; color:#ffffff;" id="demo"></span>
 		</div>
 		
 			
@@ -41,8 +42,27 @@
 				</a> -->
 			</div>
 			<div class="col-md-5 order-first order-md-last mb-3 mb-md-0 text-center">
-				<img class = "banner-img" src="images/banner-main.png" alt="banner-img">
+				<!-- <img class = "banner-img" src="images/banner-main.png" alt="banner-img"> -->
+				<div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="images/banner-main1.png" class="d-block w-100" alt="AlgoSports Group">
+					</div>
+					<div class="carousel-item">
+						<img src="images/banner-main2.png" class="d-block w-100" alt="AlgoSports Group">
+					</div>
+					<div class="carousel-item">
+						<img src="images/banner-main3.png" class="d-block w-100" alt="AlgoSports Group">
+					</div>
+  				</div>
 			</div>
+
+
+			</div>
+
+			
+
+
 		</div>
 	</div>
 </section>

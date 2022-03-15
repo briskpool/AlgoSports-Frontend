@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
     font-weight: bold;
-    font-family: industry;
+    font-family: Glegoo, serif;
 }
     
 img { 
@@ -61,7 +61,7 @@ img {
 
 .btn {
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 13px;
     text-transform: uppercase;
     border-radius: var(--radius-sm);
     font-family: 'industry';
@@ -234,6 +234,7 @@ img {
     font-size: 22px;
     font-weight: bold;
     color: #1F1F1F;
+    font-family: Glegoo, serif;
 }
 
 .home-banner .google-ply-btn {
