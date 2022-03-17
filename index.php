@@ -455,7 +455,7 @@
 							£ <span class="counter" data-counter-time="2000" data-counter-delay="10">1.1</span>M
 						</h2>
 						<p class="mb-0">
-							WITHDRAWN EACH MONTHß
+							WITHDRAWN EACH MONTH
 						</p>
 					</div>
 				</div>
