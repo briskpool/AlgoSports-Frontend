@@ -7,7 +7,7 @@
 
 
 <body>
-	<section>
+	<!-- <section>
 		<div class="row">
 		<div class="alert text-center fw-bold text-light" style="font-size:14px; background-color:#0C2C3B;" role="alert">
 			<img src="images/f1_logo.svg" style="width:80px;"> Fund 
@@ -16,7 +16,7 @@
 		</div>
 		
 			
-	</section>
+	</section> -->
 
 <?php include 'navbar.php'; ?>
 

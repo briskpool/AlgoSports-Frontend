@@ -111,7 +111,7 @@
 
   <script src="js/cookies.js"></script>
 <!--Count Down Timer-->
-<script>
+<!-- <script>
 // Set the date we're counting down to
 var countDownDate = new Date("Mar 18, 2022 12:00:00").getTime();
 
@@ -140,7 +140,7 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
-</script>
+</script> -->
 
 <!--Count Down Timer-->
 
