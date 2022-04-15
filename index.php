@@ -42,20 +42,20 @@
 				</a> -->
 			</div>
 			<div class="col-md-5 order-first order-md-last mb-3 mb-md-0 text-center">
-				<!-- <img class = "banner-img" src="images/banner-main.png" alt="banner-img"> -->
-				<div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img src="images/banner-main1.png" class="d-block w-100" alt="AlgoSports Group">
+				<img class = "banner-img" src="images/banner-main1.png" alt="banner-img">
+				<!-- <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="images/banner-main1.png" class="d-block w-100" alt="AlgoSports Group">
+						</div>
+						<div class="carousel-item">
+							<img src="images/banner-main2.png" class="d-block w-100" alt="AlgoSports Group">
+						</div>
+						<div class="carousel-item">
+							<img src="images/banner-main3.png" class="d-block w-100" alt="AlgoSports Group">
+						</div>
 					</div>
-					<div class="carousel-item">
-						<img src="images/banner-main2.png" class="d-block w-100" alt="AlgoSports Group">
-					</div>
-					<div class="carousel-item">
-						<img src="images/banner-main3.png" class="d-block w-100" alt="AlgoSports Group">
-					</div>
-  				</div>
-			</div>
+				</div> -->
 
 
 			</div>
@@ -109,7 +109,7 @@
 								
 							</h2>
 							<p>
-							Open Your Account And Deposit A Minimum Of £1,000 
+							Open Your Account And Deposit A Minimum Of £1,500 
 							</p>
 						</div>
 						<div class="col-md-4 mb-3 mb-md-0">
