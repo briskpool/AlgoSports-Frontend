@@ -42,7 +42,7 @@
 				</a> -->
 			</div>
 			<div class="col-md-5 order-first order-md-last mb-3 mb-md-0 text-center">
-				<img class = "banner-img" src="images/banner-main1.png" alt="banner-img">
+				<img class = "banner-img" src="images/banner-main2.png" alt="banner-img">
 				<!-- <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
