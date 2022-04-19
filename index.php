@@ -7,16 +7,19 @@
 
 
 <body>
-	<!-- <section>
+	<section>
 		<div class="row">
 		<div class="alert text-center fw-bold text-light" style="font-size:14px; background-color:#0C2C3B;" role="alert">
-			<img src="images/f1_logo.svg" style="width:80px;"> Fund 
-			<a href="mailto:info@algosportsgroup.com?subject=AlgoSports F1 Fund" class="btn btn-primary mx-2 px-2 py-1">Apply Today</a>
-			<span style="font-size: 14px; font-weight: 500; color:#ffffff;" id="demo"></span>
+			<div class="">
+			<span style="font-family:Glegoo; font-size:18px; padding-right:10px;">Refer a Friend</span><span style="font-family:Glegoo;font-size:18px; font-weight:bold;">£50 Bonus</span> 
+				<a href="mailto:info@algosportsgroup.com?subject=Claim Bonus" class=" animated pulse btn btn-primary mx-2 px-2 py-1">Apply Today</a>
+				<span style="font-size: 14px; font-weight: 500; color:#ffffff;" id="demo"></span>
+			</div>
+			
 		</div>
 		
 			
-	</section> -->
+	</section>
 
 <?php include 'navbar.php'; ?>
 
