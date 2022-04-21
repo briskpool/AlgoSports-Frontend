@@ -7,7 +7,7 @@
 
 
 <body>
-	<section>
+	<!-- <section>
 		<div class="row">
 		<div class="alert text-center fw-bold text-light" style="font-size:14px; background-color:#0C2C3B;" role="alert">
 			<div class="">
@@ -19,7 +19,7 @@
 		</div>
 		
 			
-	</section>
+	</section> -->
 
 <?php include 'navbar.php'; ?>
 
